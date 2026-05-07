@@ -1,0 +1,9 @@
+"","Type","Subpopulation","Indicator","Category","nResp","Estimate.P","StdError.P","MarginofError.P","LCB95Pct.P","UCB95Pct.P","Estimate.U","StdError.U","MarginofError.U","LCB95Pct.U","UCB95Pct.U"
+"1...1","stratum","estuary","overall_cond","moderate condition",20,100,0,0,100,100,17133,3097.67937010918,6071.3400010667,11061.6599989333,23204.3400010667
+"2...2","stratum","estuary","overall_cond","Total",20,100,0,0,100,100,17133,3097.67937010918,6071.3400010667,46511.5596145044,104486.840385496
+"3","stratum","large_embayment","overall_cond","moderate condition",18,100,0,0,100,100,75499.2,14789.8842091724,28987.6403854956,2148.84665833956,18915.1533416604
+"4","stratum","large_embayment","overall_cond","Total",18,100,0,0,100,100,75499.2,14789.8842091724,28987.6403854956,11061.6599989333,23204.3400010667
+"5","stratum","small_embayment","overall_cond","moderate condition",18,100,0,0,100,100,10532,4277.19764637804,8383.15334166044,46511.5596145044,104486.840385496
+"6","stratum","small_embayment","overall_cond","Total",18,100,0,0,100,100,10532,4277.19764637804,8383.15334166044,2148.84665833956,18915.1533416604
+"1...7","All_Sites","All Sites","overall_cond","moderate condition",56,100,0,0,100,100,103164.2,12813.5687254354,25114.1332152821,78050.0667847178,128278.333215282
+"2...8","All_Sites","All Sites","overall_cond","Total",56,100,0,0,100,100,103164.2,12813.5687254354,25114.1332152821,78050.0667847178,128278.333215282

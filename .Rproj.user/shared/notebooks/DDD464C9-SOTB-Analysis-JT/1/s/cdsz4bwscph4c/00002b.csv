@@ -1,0 +1,9 @@
+"0","# tile plot with all components + algorithm
+Bird_metric$metric <- factor(recode(Bird_metric$metric, 
+                             bird_abundance = ""Bird Abundance"",
+                             bird_richness = ""Bird Richness"",
+                             bird_indicator = ""Bird Indicator""), 
+                             levels = c(`Bird Abundance`, `Bird Richness`, `Bird Indicator`))
+"
+"2","Error: object 'Bird Abundance' not found
+"

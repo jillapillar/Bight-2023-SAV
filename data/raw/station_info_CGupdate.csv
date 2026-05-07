@@ -1,0 +1,98 @@
+﻿project_id,waterbody,sample_date,site_id,collection_method,nominal_depth,depth_units,nominal_lat,nominal_lon,bed_type,sample_n,field_org,central_depth_mhw,central_depth_raw,stratum,bed_perimeter,bed_perimeter_unit,wgt,distance_to_inlet,inlet_status,site_protection,site_protection_granular,conservation_area,natural_or_restored,species
+B23-SAV,San Diego South Bay,10/1/24,B23-SAV-027,cross-3parallel,2.1516,m,32.6047,-117.1191,meadow,13,Merkel,2.152,1.372,large_embayment,127,m,4194.4,6.6162,open,U,NWR,NWR,,Zostera marina
+B23-SAV,San Diego Bay,11/7/24,B23-SAV-023,cross-3parallel,1.8188,m,32.611,-117.1254,meadow,13,Merkel,1.819,1.829,large_embayment,140,m,4194.4,2.5265,open,U,NWR,NWR,,Zostera marina
+B23-SAV,San Diego Bay,10/15/24,912SDSBPO,cross-parallel,1.5,m,32.6112,-117.11004,meadow,1,MLML,1.5,1.8,large_embayment,140,m,4194.4,13.4451,open,U,NWR,NWR,,
+RESCQ,San Diego Bay,10/17/24,RESCQ-Site-029,cross-parallel,1.39,m,32.6113,-117.1321,NA,7,Merkel,1.39,1.7,large_embayment,106,m,4194.4,12.42,open,U,U,U,,Zostera marina
+B23-SAV,San Diego Bay,10/15/24,912SDSSSC,cross-parallel,2.1,m,32.63332,-117.13691,meadow,5,MLML,2.1,2.1,large_embayment,140,m,4194.4,10.0003,open,U,U,U,,
+RESCQ,San Diego Bay,10/17/24,RESCQ-Site-025,cross-parallel,1.37,m,32.6379,-117.1169,NA,7,Merkel,1.37,0.6,large_embayment,140,m,4194.4,10.87,open,U,U,U,,Zostera marina
+RESCQ,San Diego Bay,10/17/24,RESCQ-Site-026,cross-parallel,1.4116,m,32.6421,-117.1201,NA,7,Merkel,1.412,0.102,large_embayment,140,m,4194.4,10.08,open,U,U,U,,Zostera marina
+B23-SAV,San Diego South Bay,9/30/24,B23-SAV-030,cross-3parallel,2.704,m,32.6565,-117.1484,meadow,13,Merkel,2.704,1.524,large_embayment,140,m,4194.4,7.9777,open,U,U,U,,Zostera marina
+B23-SAV,Newport Bay,10/7/24,B23-SAV-031,cross-3parallel,1.6188,m,32.6565,-117.1484,NA,13,Merkel,1.619,1.829,small_embayment,144,m,372.8,3.8284,open,P,U,U,,Zostera marina
+RESCQ,San Diego Bay,11/25/24,RESCQ-Site-022,cross-parallel,1.754,m,32.6599,-117.1506,meadow,7,Merkel,1.754,1.524,large_embayment,140,m,4194.4,8.51,open,U,U,U,,Zostera marina
+B23-SAV,San Diego Bay (Zuniga Jetty),11/25/24,B23-SAV-905,cross-3parallel,6.1516,m,32.6731,-117.2227,bed,13,Merkel,6.152,5.182,large_embayment,140,m,4194.4,0.7544,open,U,U,U,,Zostera pacifica
+B23-SAV,San Diego Bay,10/10/24,910ZNJN02,cross-parallel,4.6,m,32.67558,-117.22271,bed,5,MLML,4.6,4.3,large_embayment,78,m,4194.4,0.619,open,U,U,U,,
+RESCQ,San Diego Bay,11/14/24,RESCQ-Site-030,cross-parallel,4.4276,m,32.6761,-117.1653,NA,7,Merkel,4.428,3.658,large_embayment,140,m,4194.4,7.39,open,U,U,U,,Zostera marina
+B23-SAV,San Diego Bay,10/10/24,912SDT003,cross-parallel,5.2,m,32.67918,-117.22359,bed,5,MLML,5.2,4.9,large_embayment,46,m,4194.4,0.2955,open,U,U,U,,
+B23-SAV,San Diego Bay,10/9/24,910ZNJN01,cross-parallel,3,m,32.6794,-117.22281,meadow,5,MLML,3,3,large_embayment,140,m,4194.4,0.3324,open,U,U,U,,
+RESCQ,San Diego Bay,11/14/24,RESCQ-Site-023,cross-parallel,2.728,m,32.6798,-117.2228,meadow,7,Merkel,2.728,3.048,large_embayment,140,m,4194.4,1.35,open,U,U,U,,Zostera pacifica
+B23-SAV,San Diego Bay,11/7/24,B23-SAV-029,cross-3parallel,3.6676,m,32.6832,-117.1574,meadow,13,Merkel,3.668,3.658,large_embayment,140,m,4194.4,7.9777,open,U,U,U,,Zostera marina
+B23-SAV,San Diego Bay,10/16/24,912SDBCPB,cross-parallel,1.9,m,32.68333,-117.16493,meadow,5,MLML,1.9,1.8,large_embayment,140,m,4194.4,5.8632,open,U,U,U,,
+B23-SAV,San Diego Bay,10/14/24,912SDT001,cross-parallel,1.2,m,32.68962,-117.1635,meadow,1,MLML,1.2,0.3,large_embayment,140,m,4194.4,6.04,open,U,U,U,,
+B23-SAV,San Diego Bay,10/16/24,912SDCBVP,cross-parallel,1.6,m,32.70204,-117.17838,meadow,5,MLML,1.6,2.1,large_embayment,140,m,4194.4,4.8937,open,U,U,U,,
+B23-SAV,San Diego Bay,10/8/24,912SDSIWB,cross-parallel,2.3,m,32.70905,-117.23083,meadow,5,MLML,2.3,2.4,large_embayment,140,m,4194.4,2.6814,open,U,U,U,,
+B23-SAV,San Diego Bay,10/9/24,912SDNOST,parallel,1.9,m,32.71211,-117.23608,patch,2,MLML,1.9,1.5,large_embayment,10,m,4194.4,3.1467,open,U,U,U,,
+B23-SAV,San Diego Bay,10/2/24,B23-SAV-026,cross-3parallel,4.6676,m,32.7245,-117.2082,fringing bed,10,Merkel,4.668,3.658,large_embayment,112,m,4194.4,13.0694,open,U,U,U,,Zostera marina
+B23-SAV,San Diego Bay,10/8/24,912SDBSLB,cross-parallel,4,m,32.72808,-117.21023,meadow,5,MLML,4,3.7,large_embayment,140,m,4194.4,5.31,open,U,U,U,,
+B23-SAV,San Diego South Bay,10/2/24,B23-SAV-022,cross-3parallel,2.3936,m,32.7368,-117.2077,meadow,13,Merkel,2.394,2.134,large_embayment,140,m,4194.4,12.1879,open,U,U,U,,Zostera marina
+B23-SAV,San Diego Estuary,11/19/24,B23-SAV-036,patch,1.0596,m,32.7574,-117.2459,patch,2,Merkel,1.06,0.61,estuary,9,m,856.2,0.23,open,U,U,U,,Zostera marina
+B23-SAV,Mission Bay,11/25/24,B23-SAV-906,patch,2.1364,m,32.758,-117.2453,patch,3,Merkel,2.136,1.676,large_embayment,3,m,4194.4,0.78,open,U,U,U,,Zostera pacifica
+B23-SAV,Mission Bay,10/3/24,906MBMCSC,cross-3parallel,2.8,m,32.76123,-117.2469,meadow,5,MLML,2.8,2.7,large_embayment,140,m,4194.4,0.716,open,U,U,U,,
+RESCQ,Mission Bay (Mariner's Cove),11/18/24,RESCQ-Site-021,cross-parallel,2.528,m,32.7629,-117.2489,bed,7,Merkel,2.528,3.048,large_embayment,140,m,4194.4,0.89,open,U,U,U,,Zostera marina
+B23-SAV,Mission Bay,9/26/24,906MBVCSA,cross-3parallel,2.1,m,32.7711,-117.2437,bed,5,MLML,2.1,1.8,large_embayment,56,m,4194.4,1.5689,open,U,U,U,,
+B23-SAV,Mission Bay,9/24/24,906MBVIYP,cross-3parallel,2.2,m,32.7715,-117.23715,meadow,5,MLML,2.2,2.1,large_embayment,140,m,4194.4,2.0741,open,U,U,U,,
+B23-SAV,Mission Bay,9/30/24,906MBVINC,cross-3parallel,4.3,m,32.77681,-117.23834,bed,5,MLML,4.3,3.4,large_embayment,120,m,4194.4,2.3511,open,U,U,U,,
+B23-SAV,Mission Bay,11/25/24,B23-SAV-908,cross-parallel,1.4896,m,32.7771,-117.2373,meadow,7,Merkel,1.49,0.61,large_embayment,106,m,4194.4,0.1449,open,U,U,U,,Zostera marina
+RESCQ,Mission Bay,11/18/24,RESCQ-Site-027,cross-parallel,3.0876,m,32.7784,-117.2241,NA,7,Merkel,3.088,3.658,large_embayment,140,m,4194.4,2.93,open,U,U,U,,Zostera marina
+B23-SAV,Mission Bay,10/2/24,906MBECSR,cross-3parallel,1.6,m,32.78062,-117.23903,bed,5,MLML,1.6,1.8,large_embayment,126,m,4194.4,2.6115,open,U,U,U,,
+B23-SAV,Mission Bay,11/18/24,B23-SAV-092,cross-3parallel,1.9892,m,32.7807,-117.2128,NA,13,Merkel,1.989,1.219,large_embayment,125,m,4194.4,2.6806,open,U,U,U,,Zostera pacifica
+RESCQ,Mission Bay,11/18/24,RESCQ-Site-028,cross-parallel,3.9576,m,32.7903,-117.2177,NA,7,Merkel,3.958,3.658,large_embayment,135,m,4194.4,3.47,open,U,U,U,,Zostera marina
+RESCQ,Mission Bay,11/18/24,RESCQ-Site-024,cross-parallel,2.918,m,32.7911,-117.2233,NA,7,Merkel,2.918,3.048,large_embayment,140,m,4194.4,3.42,open,U,U,U,,Zostera marina
+B23-SAV,La Jolla Cove,11/26/24,B23-SAV-991,patch,8.6196,m,32.854,-117.2655,patch,3,Merkel,8.62,8.23,NA,20,m,NA,5.65,unknown,P,No Take,State Marine Reserve,,Zostera pacifica
+RESCQ,San Dieguito Lagoon,11/13/24,RESCQ-Site-060,cross,1.5706,m,32.9725,-117.2655,fringing bed,5,Merkel,1.571,0.101,estuary,98,m,856.2,0.31,open,U,U,U,,Zostera marina
+B23-SAV,San Elijo Lagoon,12/4/24,B23-SAV-907,patch,1.4144,m,33.0129,-117.2747,patch,1,Merkel,1.414,0.914,estuary,1,m,856.2,2.4418,open,U,No Take,State Marine Conservation Area,,Zostera marina
+B23-SAV,Batiquitos Lagoon,10/22/24,904BLT001,cross-parallel,1.6,m,33.08492,-117.3069,meadow,5,MLML,1.6,1.8,estuary,140,m,856.2,0.6886,open,P,U,Adjacent to No Take Area,,
+RESCQ,Batiquitos Lagoon,11/18/24,RESCQ-Site-031,cross-parallel,2.8128,m,33.0851,-117.3056,meadow,7,Merkel,2.813,3.353,estuary,150,m,856.2,0.51,open,P,U,Adjacent to No Take Area,,Zostera marina
+B23-SAV,Batiquitos Lagoon,11/18/24,B23-SAV-035,cross-3parallel,1.424,m,33.0863,-117.308,bed,13,Merkel,1.424,1.524,estuary,100,m,856.2,0.6825,open,P,U,Adjacent to No Take Area,,Zostera marina
+B23-SAV,Batiquitos Lagoon,10/23/24,B23-SAV-007,cross-3parallel,1.2,m,33.08883,-117.29001,meadow,5,MLML,1.2,1.2,estuary,140,m,856.2,2.3584,open,P,No Take,State Marine Conservation Area,,
+RESCQ,Batiquitos Lagoon,10/24/24,RESCQ-Site-004,cross-parallel,1.3,m,33.08883,-117.2895,meadow,5,MLML,1.3,0.9,estuary,140,m,856.2,1.39,open,P,No Take,State Marine Conservation Area,,Zostera marina
+RESCQ,Batiquitos Lagoon,11/18/24,RESCQ-Site-004,cross-parallel,1.5088,m,33.089,-117.2898,meadow,7,Merkel,1.509,1.829,estuary,140,m,856.2,1.39,open,P,No Take,State Marine Conservation Area,,Zostera marina
+B23-SAV,Batiquitos Lagoon,10/23/24,B23-SAV-002,cross-3parallel,1.7,m,33.09112,-117.30441,meadow,5,MLML,1.7,1.5,estuary,140,m,856.2,0.6,open,P,U,Adjacent to No Take Area,,Zostera marina
+RESCQ,Agua Hedionda Lagoon,10/11/24,RESCQ-Site-007,cross,1.2492,m,33.1418,-117.3317,fringing bed,5,Merkel,1.249,1.219,estuary,100,m,856.2,0.93,open,U,U,U,,Zostera marina
+RESCQ,Agua Hedionda Lagoon,10/11/24,RESCQ-Site-008,cross-parallel,1.894,m,33.1425,-117.3224,bed,7,Merkel,1.894,1.524,estuary,112,m,856.2,1.39,open,U,U,U,,Zostera marina
+B23-SAV,Agua Hedionda Lagoon,10/22/24,904AHT001,cross-parallel,2.1,m,33.14521,-117.33486,meadow,5,MLML,2.1,1.8,estuary,140,m,856.2,0.7733,open,U,U,U,,
+B23-SAV,Agua Hedionda Lagoon,10/11/24,B23-SAV-008,cross-3parallel,2.1588,m,33.146,-117.3329,meadow,13,Merkel,2.159,1.829,estuary,140,m,856.2,0.9816,open,U,U,U,,Zostera marina
+B23-SAV,Oceanside Harbor,11/26/24,B23-SAV-910,patch,4.7676,m,33.2105,-117.4031,patch,3,Merkel,4.768,3.658,small_embayment,12,m,372.8,9.5694,open,U,U,U,natural,Zostera marina
+RESCQ,Oceanside Harbor,11/18/24,RESCQ-Site-064,cross-parallel,3.7828,m,33.2108,-117.4035,meadow,7,Merkel,3.783,3.353,small_embayment,140,m,372.8,1.31,open,U,U,U,,Zostera pacifica
+B23-SAV,Dana Point Harbor,11/18/24,B23-SAV-066,patch,5.0064,m,33.4561,-117.6951,patch,2,Merkel,5.006,5.486,small_embayment,4,m,372.8,4.6308,open,U,U,U,,
+RESCQ,Dana Point Harbor,11/18/24,RESCQ-Site-020,patch,7.3948,m,33.4568,-117.6973,patch,2,Merkel,7.395,7.925,small_embayment,9,m,372.8,1.02,open,U,U,U,,Zostera marina
+B23-SAV,Newport Bay,12/3/24,B23-SAV-025,cross-3parallel,2.648,m,33.6057,-117.8989,bed,13,Merkel,2.648,3.048,large_embayment,56,m,4194.4,4.4027,open,U,U,U,,Zostera marina
+B23-SAV,Bolsa Chica,11/20/24,B23-SAV-032,cross-3parallel,2.314,m,33.6197,-117.9029,meadow,13,Merkel,2.314,1.524,estuary,145,m,856.2,0.5538,open,P,Limited Take,State Marine Conservation Area,,Zostera marina
+B23-SAV,Newport Bay,12/3/24,B23-SAV-014,cross,2.5884,m,33.6202,-117.8971,fringing bed,5,Merkel,2.588,2.438,small_embayment,42,m,372.8,0.711,open,U,Limited Take,State Marine Conservation Area,restored,Zostera marina
+RESCQ,Newport back bay,11/3/23,RESCQ-Site-016,cross-3parallel,NA,m,33.6210584,-117.8973517,,3,CSULB,NA,NA,small_embayment,,,372.8,3.18,open,P,Limited Take,State Marine Conservation Area,restored,Zostera marina
+RESCQ,Newport back bay,6/13/23,RESCQ-Site-016,cross-3parallel,NA,m,33.6210584,-117.8973517,NA,3,CSULB,NA,NA,small_embayment,,,372.8,3.06,open,P,Limited Take,State Marine Conservation Area,,
+B23-SAV,Newport Bay,10/7/24,B23-SAV-018,cross-3parallel,2.888,m,33.6213,-117.9011,NA,13,Merkel,2.888,3.048,small_embayment,144,m,372.8,3.0288,open,U,Limited Take,State Marine Conservation Area,restored,Zostera marina
+RESCQ,Newport back bay,11/3/23,RESCQ-Site-012,cross-3parallel,NA,m,33.62179329,-117.8934771,,3,CSULB,NA,NA,small_embayment,,,372.8,3.41,open,P,Limited Take,State Marine Conservation Area,restored,Zostera marina
+RESCQ,Newport back bay,6/13/24,RESCQ-Site-012,cross-3parallel,NA,m,33.62179329,-117.8934771,NA,3,CSULB,NA,NA,small_embayment,,,372.8,3.31,open,P,Limited Take,State Marine Conservation Area,,
+B23-SAV,Santa Ana River,11/19/24,B23-SAV-001,cross-3parallel,1.4788,m,33.6329,-117.9561,meadow,13,Merkel,1.479,1.829,estuary,140,m,856.2,0.4697,open,U,U,U,,Zostera marina
+B23-SAV,San Dieguito Lagoon,10/14/25,B23-SAV-060,3parallel,1.2192,m,32.97266254,-117.2658186,meadow,60,SONGS_UCSB,1.329,1.219,estuary,NA,m,865.2,1.61,open,U,U,Adjacent to Limited Take Area,restored,Zostera marina
+RESCQ,Huntington - Talbert1,8/29/23,RESCQ-Site-062,cross-3parallel,NA,m,33.6357694,-117.9627508,NA,3,CSULB,NA,NA,small_embayment,,,372.8,0.36,open,U,U,U,,
+RESCQ,Huntington - Talbert1,6/20/24,RESCQ-Site-062,cross-3parallel,NA,m,33.6357694,-117.9627508,NA,3,CSULB,NA,NA,small_embayment,,,372.8,0.37,open,U,U,U,,
+B23-SAV,Magnolia Marsh,11/19/24,B23-SAV-063,cross-3parallel,1.3244,m,33.6429,-117.9726,NA,13,Merkel,1.324,0.914,small_embayment,125,m,372.8,2.4499,open,U,U,U,,Zostera marina
+B23-SAV,Huntington - Magnolia Marsh2,8/29/23,B23-SAV-012,cross-3parallel,NA,m,33.64356676,-117.9746457,,3,CSULB,NA,NA,small_embayment,NA,,372.8,1.8,open,U,U,U,,Zostera marina
+B23-SAV,Huntington - Magnolia Marsh2,6/20/24,B23-SAV-012,cross-3parallel,NA,m,33.64356676,-117.9746457,NA,3,CSULB,NA,NA,small_embayment,,,372.8,1.8,open,U,U,U,,
+B23-SAV,Magnolia Marsh,11/19/24,B23-SAV-012,cross-parallel,0.9992,m,33.6439,-117.9746,meadow,7,Merkel,0.999,1.219,small_embayment,140,m,372.8,3.5522,open,U,U,U,,Zostera marina
+RESCQ,Bolsa Chica,12/4/23,RESCQ-Site-002,cross-3parallel,NA,m,33.68647342,-118.0354766,,3,CSULB,NA,NA,estuary,,,856.2,0.47,open,P,No Take,State Marine Conservation Area,,
+RESCQ,Bolsa Chica,6/17/24,RESCQ-Site-002,cross-3parallel,NA,m,33.68647342,-118.0354766,NA,3,CSULB,NA,NA,estuary,,,856.2,0.44,open,P,No Take,State Marine Conservation Area,,
+RESCQ,Bolsa Chica,12/3/24,RESCQ-Site-033,cross-parallel,2.5884,m,33.6945,-118.0343,meadow,7,Merkel,2.588,2.438,estuary,140,m,856.2,0.88,open,P,No Take,State Marine Conservation Area,,Zostera marina
+B23-SAV,Port of Los Angeles ,11/12/24,B23-SAV-011,cross-3parallel,2.8536,m,33.7088,-118.2778,bed,13,Merkel,2.854,2.134,small_embayment,124,m,372.8,0.0723,open,U,U,U,,Zostera marina
+RESCQ,Port of Los Angeles ,11/12/24,RESCQ-Site-013,cross-parallel,2.5488,m,33.709,-118.2782,bed,7,Merkel,2.549,1.829,small_embayment,140,m,372.8,1.37,open,U,U,U,,Zostera marina
+RESCQ,Port of Los Angeles ,11/12/24,RESCQ-Site-017,cross-parallel,2.334,m,33.7097,-118.2801,meadow,7,Merkel,2.334,1.524,small_embayment,124,m,372.8,1.46,open,U,U,U,,Zostera marina
+B23-SAV,Port of Los Angeles ,11/12/24,B23-SAV-015,cross-3parallel,2.774,m,33.7134,-118.2825,meadow,13,Merkel,2.774,1.524,small_embayment,88,m,372.8,3.8547,open,U,U,U,,Zostera marina
+B23-SAV,Alamitos Bay,12/2/24,B23-SAV-904,patch,4.718,m,33.7243,-118.0721,patch,2,Merkel,4.718,3.048,small_embayment,9,m,372.8,0.8014,open,U,U,U,,Zostera pacifica
+RESCQ,Seal Beach NWR,11/20/24,RESCQ-Site-009,cross-parallel,0.8544,m,33.7309,-118.0838,fringing bed,7,Merkel,0.854,0.914,estuary,120,m,856.2,0.53,open,U,NWR,NWR,,Zostera marina
+B23-SAV,Seal Beach NWR,11/20/24,B23-SAV-006,cross-3parallel,1.9988,m,33.7311,-118.0806,meadow,13,Merkel,1.999,1.829,estuary,140,m,856.2,1.3698,open,U,NWR,NWR,,Zostera marina
+RESCQ,Seal Beach NWR,11/20/24,RESCQ-Site-010,cross-parallel,1.0492,m,33.7364,-118.0759,meadow,7,Merkel,1.049,1.219,estuary,140,m,856.2,1.18,open,U,NWR,NWR,,Zostera marina
+B23-SAV,Seal Beach NWR,11/20/24,B23-SAV-009,cross-parallel,0.8444,m,33.7405,-118.0748,fringing bed,7,Merkel,0.844,0.914,estuary,120,m,856.2,2.0367,open,U,NWR,NWR,,Zostera marina
+RESCQ,Seal Beach NWR (Signal Pond),11/21/24,RESCQ-Site-001,cross-parallel,0.9344,m,33.7425,-118.0804,bed,7,Merkel,0.934,0.914,estuary,140,m,856.2,1.6,open,U,NWR,NWR,,Zostera marina
+RESCQ,Seal Beach NWR (Case Pond),11/21/24,RESCQ-Site-003,cross-parallel,1.2544,m,33.7463,-118.072,fringing bed,7,Merkel,1.254,0.914,estuary,110,m,856.2,1.94,open,U,NWR,NWR,,Zostera marina
+B23-SAV,Alamitos Bay,12/2/24,B23-SAV-902,cross-3parallel,2.4444,m,33.7473,-118.1184,NA,13,Merkel,2.444,0.914,small_embayment,118,m,372.8,3.1525,open,U,U,U,,Zostera pacifica
+B23-SAV,Seal Beach NWR (Case Pond),11/21/24,B23-SAV-005,cross-3parallel,1.3292,m,33.7506,-118.075,bed,13,Merkel,1.329,1.219,estuary,120,m,856.2,2.539,open,U,NWR,NWR,,Zostera marina
+RESCQ,Port of Los Angeles ,11/11/24,RESCQ-Site-014,patch,2.6436,m,33.7582,-118.1515,patch,2,Merkel,2.644,2.134,small_embayment,3,m,372.8,2.94,open,U,U,U,,
+B23-SAV,Port of Los Angeles ,11/11/24,B23-SAV-020,patch,2.9036,m,33.7595,-118.156,patch,2,Merkel,2.904,2.134,small_embayment,12,m,372.8,6.28,open,U,U,U,,Zostera marina
+RESCQ,Port of Los Angeles ,11/11/24,RESCQ-Site-061,patch,3.0736,m,33.7607,-118.1612,patch,2,Merkel,3.074,2.134,small_embayment,18,m,372.8,2.41,open,U,U,U,,
+B23-SAV,Port of Los Angeles ,11/11/24,B23-SAV-064,cross-3parallel,2.7988,m,33.7608,-118.162,NA,13,Merkel,2.799,1.829,small_embayment,76,m,372.8,0.264,open,U,U,U,,Zostera pacifica
+RESCQ,Port of Los Angeles ,11/11/24,RESCQ-Site-065,cross-parallel,2.8036,m,33.7613,-118.1807,NA,7,Merkel,2.804,2.134,small_embayment,140,m,372.8,1.66,open,U,U,U,,
+B23-SAV,Alamitos Bay,12/2/24,B23-SAV-901,cross-3parallel,2.2188,m,33.7634,-118.1156,bed,13,Merkel,2.219,1.829,small_embayment,60,m,372.8,1.056,open,U,U,U,,Zostera pacifica
+B23-SAV,Alamitos Bay,12/2/24,B23-SAV-903,patch,1.8088,m,33.7679,-118.1298,patch,2,Merkel,1.809,1.829,small_embayment,25,m,372.8,2.3897,open,U,U,U,,Zostera pacifica
+B23-SAV,King Harbor,11/25/24,B23-SAV-909,patch,10.4088,m,33.8421,-118.3963,patch,2,Merkel,10.409,9.449,small_embayment,14,m,372.8,0.48,open,U,U,U,,Zostera pacifica
+B23-SAV,Santa Cruz Island,10/23/24,B23-SAV-Santa Cruz Island,3parallel,5.1816,m,34.022235,-119.684211,bed,14,NOAA/CINMS,NA,NA,NA,NA,m,NA,NA,NA,P,Limited Take,National Marine Sanctuary,,Zostera pacifica

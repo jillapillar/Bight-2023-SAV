@@ -1,0 +1,15 @@
+"0","#Trophic Support Metric
+trophic_combined <- invert_abun %>%
+  left_join(fish_abun, by = c(""siteid"", ""year"", ""season"")) %>%
+  #group_by(siteid, year, season) %>%
+  mutate(trophic_support_indicator = (invert_abun + fish_abun)/2)
+"
+"1","[1m[33mError[39m in `mutate()`:[22m
+[38;5;255m[36mℹ[38;5;255m In argument: `trophic_support_indicator = (invert_abun + fish_abun)/2`.[39m
+[1mCaused by error in `Ops.data.frame()`:[22m
+[33m![39m ‘+’ only defined for equally-sized data frames
+Backtrace:
+[90m  1. [39m... %>% ...
+[90m  9. [39m[1mbase[22m::Ops.data.frame(invert_abun, fish_abun)
+[90m 10. [39mbase::stop(...)
+"

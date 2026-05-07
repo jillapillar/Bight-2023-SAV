@@ -1,0 +1,27 @@
+"0","ggplot(Bird_metric, aes(metric, siteid, fill = value)) +
+  geom_tile(color = ""white"") +
+  geom_text(aes(label = value), size = 5) +
+  facet_wrap(~season) +
+  scale_fill_manual(values = bird_colors) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    panel.grid = element_blank()
+  )
+"
+"1","[1m[33mError[39m in `scale_fill_manual()`:[22m
+[38;5;255m[33m![38;5;255m Continuous values supplied to discrete scale.
+[36mℹ[38;5;255m Example values: [34m19[38;5;255m, [34m9[38;5;255m, [34m28[38;5;255m, [34m92[38;5;255m, and [34m10[38;5;255m[39m
+Backtrace:
+[90m  1. [39m[1mbase[22m (local) `<fn>`(x)
+[90m  2. [39mggplot2:::print.ggplot(x)
+[90m  4. [39mggplot2:::ggplot_build.ggplot(x)
+[90m  5. [39m[1mbase[22m::lapply(data, npscales$train_df)
+[90m  6. [39mggplot2 (local) FUN(X[[i]], ...)
+     ...
+[90m  9. [39mggplot2 (local) FUN(X[[i]], ...)
+[90m 10. [39mscale$train_df(df = df)
+[90m 11. [39mggplot2 (local) train_df(..., self = self)
+[90m 12. [39mself$train(df[[aesthetic]])
+[90m 13. [39mggplot2 (local) train(..., self = self)
+"

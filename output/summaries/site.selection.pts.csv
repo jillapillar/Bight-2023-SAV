@@ -1,0 +1,59 @@
+,masterid,waterbody,selection,nominal_lat,nominal_lon,stratum
+1,904AHT001,Agua Hedionda Lagoon,probabilistic,33.14521,-117.33486,estuary
+2,904BLT001,Batiquitos Lagoon,probabilistic,33.08492,-117.3069,estuary
+3,906MBECSR,Mission Bay,probabilistic,32.78062,-117.23903,large_embayment
+4,906MBMCSC,Mission Bay,probabilistic,32.76123,-117.2469,large_embayment
+5,906MBVCSA,Mission Bay,probabilistic,32.7711,-117.2437,large_embayment
+6,906MBVINC,Mission Bay,probabilistic,32.77681,-117.23834,large_embayment
+7,906MBVIYP,Mission Bay,probabilistic,32.7715,-117.23715,large_embayment
+8,910ZNJN01,San Diego Bay,probabilistic,32.6794,-117.22281,large_embayment
+9,910ZNJN02,San Diego Bay,probabilistic,32.67558,-117.22271,large_embayment
+10,912SDBCPB,San Diego Bay,probabilistic,32.68333,-117.16493,large_embayment
+11,912SDBSLB,San Diego Bay,probabilistic,32.72808,-117.21023,large_embayment
+12,912SDCBVP,San Diego Bay,probabilistic,32.70204,-117.17838,large_embayment
+13,912SDNOST,San Diego Bay,probabilistic,32.71211,-117.23608,large_embayment
+14,912SDSBPO,San Diego Bay,probabilistic,32.6112,-117.11004,large_embayment
+15,912SDSIWB,San Diego Bay,probabilistic,32.70905,-117.23083,large_embayment
+16,912SDSSSC,San Diego Bay,probabilistic,32.63332,-117.13691,large_embayment
+17,912SDT001,San Diego Bay,probabilistic,32.68962,-117.1635,large_embayment
+18,912SDT003,San Diego Bay,probabilistic,32.67918,-117.22359,large_embayment
+19,B23-SAV-001,Santa Ana River,probabilistic,33.6329,-117.9561,estuary
+20,B23-SAV-002,Batiquitos Lagoon,probabilistic,33.09112,-117.30441,estuary
+21,B23-SAV-005,Seal Beach NWR (Case Pond),probabilistic,33.7506,-118.075,estuary
+22,B23-SAV-006,Seal Beach NWR,probabilistic,33.7311,-118.0806,estuary
+23,B23-SAV-007,Batiquitos Lagoon,probabilistic,33.08883,-117.29001,estuary
+24,B23-SAV-008,Agua Hedionda Lagoon,probabilistic,33.146,-117.3329,estuary
+25,B23-SAV-009,Seal Beach NWR,probabilistic,33.7405,-118.0748,estuary
+26,B23-SAV-011,Port of Los Angeles ,probabilistic,33.7088,-118.2778,small_embayment
+30,B23-SAV-012,Magnolia Marsh,probabilistic,33.64356676,-117.9746457,small_embayment
+33,B23-SAV-014,Newport Bay,probabilistic,33.6202,-117.8971,small_embayment
+34,B23-SAV-015,Port of Los Angeles ,probabilistic,33.7134,-118.2825,small_embayment
+35,B23-SAV-018,Newport Bay,probabilistic,33.6213,-117.9011,small_embayment
+36,B23-SAV-020,Port of Los Angeles ,probabilistic,33.7595,-118.156,small_embayment
+37,B23-SAV-022,San Diego South Bay,probabilistic,32.7368,-117.2077,large_embayment
+38,B23-SAV-023,San Diego Bay,probabilistic,32.611,-117.1254,large_embayment
+39,B23-SAV-025,Newport Bay,probabilistic,33.6057,-117.8989,large_embayment
+40,B23-SAV-026,San Diego Bay,probabilistic,32.7245,-117.2082,large_embayment
+41,B23-SAV-027,San Diego South Bay,probabilistic,32.6047,-117.1191,large_embayment
+42,B23-SAV-029,San Diego Bay,probabilistic,32.6832,-117.1574,large_embayment
+43,B23-SAV-030,San Diego South Bay,probabilistic,32.6565,-117.1484,large_embayment
+44,B23-SAV-031,Newport Bay,probabilistic,32.6565,-117.1484,small_embayment
+45,B23-SAV-032,Bolsa Chica,probabilistic,33.6197,-117.9029,estuary
+46,B23-SAV-035,Batiquitos Lagoon,probabilistic,33.0863,-117.308,estuary
+47,B23-SAV-036,San Diego Estuary,probabilistic,32.7574,-117.2459,estuary
+48,B23-SAV-063,Magnolia Marsh,probabilistic,33.6429,-117.9726,small_embayment
+49,B23-SAV-064,Port of Los Angeles ,probabilistic,33.7608,-118.162,small_embayment
+50,B23-SAV-066,Dana Point Harbor,probabilistic,33.4561,-117.6951,small_embayment
+51,B23-SAV-092,Mission Bay,probabilistic,32.7807,-117.2128,large_embayment
+52,B23-SAV-901,Alamitos Bay,targeted,33.7634,-118.1156,small_embayment
+53,B23-SAV-902,Alamitos Bay,targeted,33.7473,-118.1184,small_embayment
+54,B23-SAV-903,Alamitos Bay,targeted,33.7679,-118.1298,small_embayment
+55,B23-SAV-904,Alamitos Bay,targeted,33.7243,-118.0721,small_embayment
+56,B23-SAV-905,San Diego Bay (Zuniga Jetty),targeted,32.6731,-117.2227,large_embayment
+57,B23-SAV-906,Mission Bay,targeted,32.758,-117.2453,large_embayment
+58,B23-SAV-907,San Elijo Lagoon,targeted,33.0129,-117.2747,estuary
+59,B23-SAV-908,Mission Bay,targeted,32.7771,-117.2373,large_embayment
+60,B23-SAV-909,King Harbor,targeted,33.8421,-118.3963,small_embayment
+61,B23-SAV-910,Oceanside Harbor,targeted,33.2105,-117.4031,small_embayment
+62,B23-SAV-991,La Jolla Cove,targeted,32.854,-117.2655,NA
+63,B23-SAV-Santa Cruz,Santa Cruz Island,targeted,34.020858,-119.683809,NA

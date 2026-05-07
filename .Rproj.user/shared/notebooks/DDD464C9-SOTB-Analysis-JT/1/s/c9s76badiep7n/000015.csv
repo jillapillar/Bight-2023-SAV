@@ -1,0 +1,5 @@
+"0",""
+"0","combined_stressor <- cowplot::plot_grid(do_plot, temp_plot, labels = c(""A"", ""B""), label_size = 16, ncol = 1)"
+"2","Warning: [38;5;255mRemoved 6 rows containing missing values or values outside the scale range (`geom_bar()`).[39m"
+"2","Warning: [38;5;255mRemoved 6 rows containing missing values or values outside the scale range (`geom_bar()`).[39m"
+"0","combined_stressor"

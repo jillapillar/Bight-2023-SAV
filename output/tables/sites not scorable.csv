@@ -1,0 +1,11 @@
+,masterid,stratum,waterbody,selection,scorable
+1,B23-SAV-064,small_embayment,Port of Los Angeles ,probabilistic,not scorable
+2,B23-SAV-092,large_embayment,Mission Bay,probabilistic,not scorable
+3,B23-SAV-901,small_embayment,Alamitos Bay,targeted,not scorable
+4,B23-SAV-902,small_embayment,Alamitos Bay,targeted,not scorable
+5,B23-SAV-903,small_embayment,Alamitos Bay,targeted,not scorable
+6,B23-SAV-904,small_embayment,Alamitos Bay,targeted,not scorable
+7,B23-SAV-905,large_embayment,San Diego Bay (Zuniga Jetty),targeted,not scorable
+8,B23-SAV-906,large_embayment,Mission Bay,targeted,not scorable
+9,B23-SAV-909,small_embayment,King Harbor,targeted,not scorable
+10,B23-SAV-991,NA,La Jolla Cove,targeted,not scorable

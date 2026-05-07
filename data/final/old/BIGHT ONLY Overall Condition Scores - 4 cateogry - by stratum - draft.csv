@@ -1,0 +1,21 @@
+Type,Stratum,Condition Category,Percent Area Estimate,Lower 95% CI,Upper 95% CI
+stratum,estuary,excellent condition,14.27,0.00,32.74
+stratum,estuary,good condition,35.76,10.44,61.08
+stratum,estuary,moderate condition,28.55,4.70,52.40
+stratum,estuary,poor condition,21.41,0.00,43.07
+stratum,estuary,Total,100.00,100.00,100.00
+stratum,large_embayment,excellent condition,11.11,0.00,23.07
+stratum,large_embayment,good condition,48.15,29.14,67.16
+stratum,large_embayment,moderate condition,29.63,12.26,47.00
+stratum,large_embayment,poor condition,11.11,0.00,23.07
+stratum,large_embayment,Total,100.00,100.00,100.00
+stratum,small_embayment,excellent condition,5.88,0.00,17.15
+stratum,small_embayment,good condition,17.65,0.00,35.90
+stratum,small_embayment,moderate condition,58.82,35.26,82.39
+stratum,small_embayment,poor condition,17.65,0.00,35.90
+stratum,small_embayment,Total,100.00,100.00,100.00
+All_Sites,All Sites,excellent condition,11.15,0.70,21.59
+All_Sites,All Sites,good condition,45.55,28.96,62.14
+All_Sites,All Sites,moderate condition,30.94,15.77,46.11
+All_Sites,All Sites,poor condition,12.37,1.83,22.90
+All_Sites,All Sites,Total,100.00,100.00,100.00

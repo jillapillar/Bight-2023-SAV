@@ -1,0 +1,27 @@
+{
+    "id": "903B49D0",
+    "path": "~/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/scripts/B23_eelgrass.R",
+    "project_path": "scripts/B23_eelgrass.R",
+    "type": "r_source",
+    "hash": "4139999481",
+    "contents": "",
+    "dirty": false,
+    "created": 1777328905160.0,
+    "source_on_save": false,
+    "relative_order": 11,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "1381,0",
+        "scrollLine": "1361"
+    },
+    "folds": "4|12|22|0|\n23|15|29|0|\n53|7|76|9|\n78|26|197|0|\n198|65|198|65|\n199|36|240|0|\n242|46|397|0|\n399|59|568|0|\n569|65|698|0|\n699|16|1022|0|\n1023|65|1023|65|\n1024|70|1239|0|\n1240|65|1240|65|\n1241|28|1283|0|\n1284|51|1324|17|\n1449|25|1577|0|\n1579|29|1735|0|\n",
+    "lastKnownWriteTime": 1778180558,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1778180558355,
+    "read_only": false,
+    "read_only_alternatives": []
+}

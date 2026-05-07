@@ -1,0 +1,512 @@
+scale_color_viridis_d(alpha = 0.6) +
+ylab("Above Ground Biomass (mg)") + xlab("Total Leaf Area per Sample (cm_sq)")
+ggplotly(LA_biomass_plot)
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/exploratory/QAQC/leafarea_vs_AGbiomass.jpg",
+LA_biomass_plot,
+height = 10, width = 12,
+dpi = 400)
+# Average shoot height vs total leaf area - VISUAL CHECKPOINT
+LA_shootheight_plot <- area.biomass.df %>%
+ggplot(aes(x = total.leafarea, y = avg.shootheight, color = sample_id)) +
+geom_point(size = 4) +
+theme_bw() +
+facet_wrap(~transect, scales = "free") +
+theme(axis.title = element_text(size = 18)) +
+theme(axis.text = element_text(size = 18))+
+theme(strip.text = element_text(size = 20)) +
+theme(legend.text = element_text(size = 18)) +
+theme(legend.title = element_text(size = 20)) +
+scale_color_viridis_d(alpha = 0.6) +
+xlab("Total Leaf Area per Sample (cm_sq)") + ylab("Average Shoot Height per Sample (cm)")
+ggplotly(LA_shootheight_plot)
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/exploratory/QAQC/shootheight_vs_leafarea.jpg",
+LA_shootheight_plot,
+height = 10, width = 12,
+dpi = 400)
+#Shoot density vs AG biomass - VISUAL CHECKPOINT
+biomass_shootdensity_plot <- area.biomass.df %>%
+ggplot(aes(x = total.shootdensity, y = total.agbiomass, color = sample_id)) +
+geom_point(size = 4) +
+theme_bw() +
+theme(axis.title = element_text(size = 18)) +
+theme(axis.text = element_text(size = 18))+
+theme(strip.text = element_text(size = 20)) +
+theme(legend.text = element_text(size = 18)) +
+theme(legend.title = element_text(size = 20)) +
+facet_wrap(~transect, scales = "free") +
+scale_color_viridis_d(alpha = 0.6) +
+ylab("Above Ground Biomass (mg)") + xlab("Total Shoot Density per Quadrat (count)")
+ggplotly(biomass_shootdensity_plot)
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/exploratory/QAQC/shootdensity_vs_AGbiomass.jpg",
+biomass_shootdensity_plot,
+height = 10, width = 12,
+dpi = 400)
+### bin values into quartiles based on rank-order
+AG_TOCTN_score4 <- AG_TOC_TN_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(AG_TOCTN_score = ntile(mean_result, 4))
+BG_TOCTN_score4 <- BG_TOC_TN_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(BG_TOCTN_score = ntile(mean_result, 4))
+shootheight_score4 <- shootheight_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(shootheight_score = ntile(mean_result, 4))
+shootdensity_score4 <- shootdensity_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(shootdensity_score = ntile(mean_result, 4))
+percentcover_score4 <- percentcover_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(percentcover_score = ntile(mean_result, 4))
+percentmacroalgae_score4 <- percentmacroalgae_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(percentmacroalgae_score = ntile(mean_result, 4))
+floweringshoot_score4 <- floweringshoot_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(floweringshoot_score = ntile(mean_result, 4))
+shootcount_score4 <- shootcount_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(shootcount_score = ntile(mean_result, 4))
+leafarea_score4 <- leafarea_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(leafarea_score = ntile(mean_result, 4))
+epiphyteAFDM_score4 <- epiphyteAFDM_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(epiphyteAFDM_score = ntile(mean_result, 4))
+shootwidth_score4 <- shootwidth_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(shootwidth_score = ntile(mean_result, 4))
+AG_AFDM_score4 <- AG_AFDM_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(AG_AFDM_score = ntile(mean_result, 4))
+BG_AFDM_score4 <- BG_AFDM_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(BG_AFDM_score = ntile(mean_result, 4))
+LPS_score4 <- LPS_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(LPS_score = ntile(mean_result, 4))
+AG_TOC_score4 <- AG_TOC_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(AG_TOC_score = ntile(mean_result, 4))
+AG_TN_score4 <- AG_TN_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(AG_TN_score = ntile(mean_result, 4))
+BG_TOC_score4 <- BG_TOC_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(BG_TOC_score = ntile(mean_result, 4))
+BG_TN_score4 <- BG_TN_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(BG_TN_score = ntile(mean_result, 4))
+## attach scores to metadata
+#trim metadata
+eelgrass_meta <- eelgrass %>%
+select(project_id, site_id, waterbody, distance_to_inlet,
+inlet_status, site_protection, natural_or_restored,
+species, central_depth_mhw, nominal_lat, nominal_lon,
+bed_type, stratum, sample_n, sample_date, bed_type,
+bed_perimeter, field_org, collection_method, wasting_disease,
+stratum)
+#list all score dfs
+score_dfs_4 <-list(shootheight_score4,
+shootdensity_score4,
+percentcover_score4,
+percentmacroalgae_score4,
+floweringshoot_score4,
+shootcount_score4,
+shootwidth_score4,
+leafarea_score4,
+LPS_score4,
+epiphyteAFDM_score4,
+AG_AFDM_score4,
+BG_AFDM_score4,
+AG_TOC_score4,
+AG_TN_score4,
+BG_TOC_score4,
+BG_TN_score4,
+AG_TOCTN_score4,
+BG_TOCTN_score4)
+# create df pf all structural metric scores
+metric_scores4 <- reduce(score_dfs_4, left_join, by = "site_id")
+metric_scores4_meta <- metric_scores4 %>%
+left_join(eelgrass_meta, by = "site_id")
+View(metric_scores4_meta)
+## attach scores to metadata
+#trim metadata
+eelgrass_meta <- eelgrass %>%
+select(project_id, site_id, waterbody, distance_to_inlet,
+inlet_status, site_protection, site_protection_granular, conservation_area,
+natural_or_restored,
+species, central_depth_mhw, nominal_lat, nominal_lon,
+bed_type, stratum, sample_n, sample_date, bed_type,
+bed_perimeter, field_org, collection_method, wasting_disease,
+stratum)
+#list all score dfs
+score_dfs_4 <-list(shootheight_score4,
+shootdensity_score4,
+percentcover_score4,
+percentmacroalgae_score4,
+floweringshoot_score4,
+shootcount_score4,
+shootwidth_score4,
+leafarea_score4,
+LPS_score4,
+epiphyteAFDM_score4,
+AG_AFDM_score4,
+BG_AFDM_score4,
+AG_TOC_score4,
+AG_TN_score4,
+BG_TOC_score4,
+BG_TN_score4,
+AG_TOCTN_score4,
+BG_TOCTN_score4)
+# create df pf all structural metric scores
+metric_scores4 <- reduce(score_dfs_4, left_join, by = "site_id")
+?reduce()
+library(purrr)
+# create df pf all structural metric scores
+metric_scores4 <- reduce(score_dfs_4, left_join, by = "site_id")
+metric_scores4_meta <- metric_scores4 %>%
+left_join(eelgrass_meta, by = "site_id")
+## output data into intermediate folder
+write.csv(metric_scores4_meta, here("data", "intermediate", "eelgrass_ALL_structural_metric_scores.csv"))
+View(metric_scores4_meta)
+# read back in 'final' structural metric data
+eelgrass_structural_metrics <- read.csv(here("data", "final", "eelgrass_ALL_structural_metric_scores_FINAL.csv"))
+#recall other data from above
+head(perim)
+head(area.wts)
+#clean bed perimeter - some NAs and NRs
+eelgrass_cleanbed <- eelgrass %>%
+mutate(
+bed_perimeter = na_if(bed_perimeter, "NR"),
+bed_perimeter = na_if(bed_perimeter, ""),
+bed_perimeter = as.numeric(bed_perimeter)
+)
+unique(eelgrass$bed_perimeter)
+#clean bed perimeter - some NAs and NRs
+eelgrass_cleanbed <- eelgrass %>%
+mutate(
+bed_perimeter = na_if(bed_perimeter, ""),
+bed_perimeter = as.numeric(bed_perimeter)
+)
+#clean bed perimeter - some NAs and NRs
+eelgrass_cleanbed <- eelgrass %>%
+mutate(
+bed_perimeter = as.numeric(bed_perimeter)
+)
+perim.scores<-eelgrass_cleanbed %>%
+mutate(bench.4=quantile(bed_perimeter, p=0.75, na.rm = TRUE),
+bench.3=quantile(bed_perimeter, p=0.5, na.rm = TRUE),
+bench.2=quantile(bed_perimeter, p=0.25, na.rm = TRUE),
+perimeter_score=case_when(bed_perimeter<bench.2~1,
+bed_perimeter>=bench.2 & bed_perimeter<bench.3~2,
+bed_perimeter>=bench.3 & bed_perimeter<bench.4~3,
+bed_perimeter>=bench.4 ~4))
+perim.scores1<-perim.scores %>%
+select(site_id, perimeter_score)
+scores.2<- eelgrass_structural_metrics %>%
+select(site_id, shootheight_score, shootdensity_score, percentcover_score, shootwidth_score, leafarea_score, LPS_score,
+BG_AFDM_score, epiphyteAFDM_score,AG_AFDM_score, floweringshoot_score, shootcount_score, AG_TOC_score, AG_TN_score,
+BG_TOC_score, BG_TN_score, AG_TOCTN_score, BG_TOCTN_score) %>%
+left_join(., perim.scores1, by="site_id", relationship = "many-to-many") %>%
+mutate(masterid=site_id, site_id=str_sub(masterid, 7) )
+#### CALCULATE INDEX SCORES THIS WAY INSTEAD
+index.scores <- scores.2 %>%
+mutate(
+substrate.stabilization = rowMeans(
+cbind(BG_AFDM_score, shootdensity_score, shootheight_score, leafarea_score),
+na.rm = TRUE
+),
+carbon.sequestration = rowMeans(
+cbind(AG_AFDM_score, BG_AFDM_score),
+na.rm = TRUE
+),
+primary.production = rowMeans(
+cbind(
+AG_AFDM_score,
+BG_AFDM_score,
+shootdensity_score,
+LPS_score,
+floweringshoot_score,
+leafarea_score,
+epiphyteAFDM_score,
+rowMeans(cbind(AG_TOC_score, AG_TN_score), na.rm = TRUE),
+rowMeans(cbind(BG_TOC_score, BG_TN_score), na.rm = TRUE)
+),
+na.rm = TRUE
+),
+secondary.production = rowMeans(
+cbind(
+AG_AFDM_score,
+BG_AFDM_score,
+shootdensity_score,
+LPS_score,
+shootheight_score,
+epiphyteAFDM_score,
+rowMeans(cbind(AG_TOC_score, AG_TN_score), na.rm = TRUE)
+),
+na.rm = TRUE
+),
+wq = rowMeans(
+cbind(AG_AFDM_score, percentcover_score, shootdensity_score, leafarea_score),
+na.rm = TRUE
+),
+nekton.habitat = rowMeans(
+cbind(percentcover_score, shootdensity_score, shootheight_score, leafarea_score),
+na.rm = TRUE
+),
+waterfowl.habitat = rowMeans(
+cbind(shootheight_score, shootdensity_score),
+na.rm = TRUE
+)
+) %>%
+select(
+site_id, masterid,
+substrate.stabilization, carbon.sequestration,
+primary.production, secondary.production,
+wq, nekton.habitat, waterfowl.habitat
+) %>%
+pivot_longer(
+cols = -c(site_id, masterid),
+names_to = "function_",
+values_to = "fun_score"
+) %>%
+group_by(site_id) %>%
+mutate(overall_score = mean(fun_score, na.rm = TRUE)) %>%
+ungroup() %>%
+mutate(
+fun_cond = case_when(
+fun_score > 3 ~ "good condition",
+fun_score < 2 ~ "poor condition",
+TRUE ~ "moderate condition"
+),
+overall_cond = case_when(
+overall_score > 3 ~ "good condition",
+overall_score < 2 ~ "poor condition",
+TRUE ~ "moderate condition"
+)
+) %>%
+distinct()
+# area-weighted index scores
+wt.index.scores<-index.scores %>%
+left_join(., select(station.info, project_id, site_id, nominal_lon, nominal_lat, stratum, wgt, waterbody,
+bed_type, sample_date, central_depth_mhw, distance_to_inlet, inlet_status,
+site_protection, natural_or_restored, species),
+by=c("masterid" = "site_id"), relationship = "many-to-many") %>%
+mutate(overall_cond = factor(overall_cond),
+#wgt = as.numeric(wgt),
+fun_cond = factor(fun_cond)) %>%
+distinct()
+#Remember to specify the horvitz thompson variance estimator in this new version of spsurvey
+wt.overall.cond<-wt.index.scores %>%
+filter(!is.na(site_id), !is.na(wgt), !is.na(overall_cond), !is.na(nominal_lat), !is.na(nominal_lon)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt, waterbody, overall_score, overall_cond) %>%
+cat_analysis(., siteID = "site_id", vars="overall_cond", weight="wgt", xcoord="nominal_lon", ycoord="nominal_lat", vartype = "HT")
+wt.overall.cond.2<-wt.index.scores %>%
+filter(!is.na(site_id), !is.na(wgt), !is.na(overall_cond), !is.na(nominal_lat), !is.na(nominal_lon)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt, waterbody, overall_score, overall_cond) %>%
+cat_analysis(., siteID = "site_id", vars="overall_cond", weight="wgt", xcoord="nominal_lon", ycoord="nominal_lat", subpops="stratum", vartype = "HT") %>%
+bind_rows(wt.overall.cond)
+#jill's version
+wt.index.scores.f <- wt.index.scores %>%
+mutate(
+across(where(is.factor), as.character),
+across(where(is.character), ~ na_if(.x, "NR"))
+) %>%
+mutate(across(where(is.character), as.factor))
+# this one is correct for overall
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+mutate(wgt = as.numeric(wgt)) %>%
+mutate(site_id = as.character(site_id)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+mutate(overall_cond = as.character(overall_cond)) %>%
+cat_analysis(siteID = "site_id",
+vars = "overall_cond",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+wt.overall.cond.bight
+wt.overall.cond.bight.2<-wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id), !is.na(wgt),
+!is.na(overall_cond),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+mutate(wgt = as.numeric(wgt)) %>%
+mutate(site_id = as.character(site_id)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt, waterbody, overall_score, overall_cond) %>%
+cat_analysis(., siteID = "site_id", vars="overall_cond", weight="wgt", xcoord="nominal_lon", ycoord="nominal_lat", subpops="stratum", vartype = "HT") %>%
+bind_rows(wt.overall.cond.bight)
+write.csv(wt.overall.cond.bight.2, here("data", "final", "BIGHT ONLY Overall Condition Scores by stratum - draft.csv"))
+## tables ----
+#### summary table of each function by stratum
+summary_stratum_function <- wt.index.scores %>%
+filter(project_id == "B23-SAV") %>%
+group_by(stratum, function_) %>%
+summarise(
+mean = round(mean(fun_score, na.rm = TRUE), 3),
+sd = round(sd(fun_score, na.rm = TRUE), 3),
+min = round(min(fun_score, na.rm = TRUE), 2),
+max = round(max(fun_score, na.rm = TRUE), 2),
+range = max - min,
+.groups = "drop") %>%
+mutate(
+fun_condition = case_when(
+mean > 3 ~ "good condition",
+mean < 2 ~ "poor condition",
+TRUE ~ "moderate condition"))
+summary_table_stratum_byfunction <- summary_stratum_function %>%
+gt() %>% tab_caption("Eelgrass Ecosystem Function Scores Summary Stats by stratum")
+write.csv(
+summary_table_stratum_byfunction,
+here("output", "tables", "stratum_function_summary.csv"),
+row.names = FALSE
+)
+## summary table - mean overall scores by waterbody
+summary_overall_waterbody <- wt.index.scores %>%
+filter(project_id == "B23-SAV") %>%
+group_by(waterbody) %>%
+summarise(
+mean = round(mean(overall_score, na.rm = TRUE), 3),
+sd = round(sd(overall_score, na.rm = TRUE), 3),
+min = round(min(overall_score, na.rm = TRUE), 2),
+max = round(max(overall_score, na.rm = TRUE), 2),
+range = max - min,
+.groups = "drop"
+) %>%
+mutate(overall_cond=case_when(mean>3~"good condition",
+mean<2~"poor condition",
+TRUE~"moderate condition"))
+summary_overall_waterbody
+write.csv(
+summary_overall_waterbody,
+here("output", "tables", "waterbody_overall_summary.csv"),
+row.names = FALSE
+)
+#install packages
+install.packages("Uniqseq")
+R.version.string
+library("remotes")
+remotes::install_github("ropensci/Uniqseq")
+install.packages(
+"https://cran.r-project.org/src/contrib/Archive/Uniqseq/Uniqseq_1.0.2.tar.gz",
+repos = NULL,
+type = "source"
+)
+R.version.string
+R.version.string
+R.version.string
+#install packages
+install.packages("Uniqseq", dependencies = TRUE)
+library(Uniqseq)
+install.packages(
+"https://cran.r-project.org/src/contrib/Archive/Uniqseq/Uniqseq_1.0.2.tar.gz",
+repos = NULL,
+type = "source",
+dependencies = TRUE
+)
+library(remotes)
+library("remotes")
+install.packages("remotes")
+library(remotes)
+remotes::install_github("ropensci/Uniqseq", force = TRUE)
+55-23
+32-12
+library(here)
+# open libs ----
+library(here)
+library(tidyr)
+library(dplyr)
+old_packages <- installed.packages()[, "Package"]
+save(old_packages, file = "old_packages.RData")
+load("old_packages.RData")
+install.packages(old_packages)
+old_packages <- installed.packages()[, "Package"]
+save(old_packages, file = "old_packages.RData")
+old_packages <- installed.packages()[, "Package"]
+save(old_packages, file = "old_packages.RData")
+load("old_packages.RData")
+install.packages(old_packages)
+# open libs ----
+library(here)
+library(tidyr)
+library(dplyr)
+library(sf)
+load("old_packages.RData")
+install.packages(old_packages)
+# open libs ----
+library(here)
+library(tidyr)
+library(dplyr)
+library(sf)
+save(old_packages, file = "old_packages.RData")
+load("old_packages.RData")
+install.packages(old_packages)
+# open libs ----
+library(here)
+library(tidyr)
+old_lib <- "C:/Users/YourName/Documents/R/win-library/4.4.1"
+install.packages(setdiff(list.files(old_lib), installed.packages()[,"Package"]))
+# open libs ----
+library(here)
+library(tidyr)
+.LibPaths
+.libPaths()
+old_lib <- "/Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library"
+new_lib <- .libPaths()[1]
+file.copy(from = list.files(old_lib, full.names = TRUE),
+to = new_lib,
+recursive = TRUE)
+# open libs ----
+library(here)
+library(tidyr)
+install.packages("here")
+install.packages("tidyr")
+install.packages("purrr")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("spsurvey")
+install.packages("vegan")
+install.packages("stringr")
+install.packages("DT")
+install.packages("kableExtra")
+install.packages("ggforce")
+install.packages("plotly")
+install.packages("purrr")
+install.packages("tidyr")
+install.packages("sf")
+# open libs ----
+library(here)
+#library(tidyr)
+#library(dplyr)
+#library(sf)
+library(spsurvey)
+library(vegan)
+library(ggplot2)
+install.packages("ggplot2")
+install.packages("permute")

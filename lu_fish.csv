@@ -1,0 +1,8718 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <style>
+	.datatablerowhighlight {
+    		background-color: #ECFFB3 !important;
+	}
+  </style>
+  <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript">
+  	$(document).ready( function () {
+    		$('#mytable').DataTable( { "pageLength": -1 } );
+	} );
+  </script>
+</head>
+<body>
+<h3>Lookup list: lu_fishmacrospecies</h3><hr>
+<table id="mytable" class="display">
+
+	
+		<thead>
+		<tr>
+		
+			
+				<th class="datatablerowhighlight"><h6>Lookup list value:</h6> scientificname </th>
+			
+		
+			
+				<th> commonname </th>
+			
+		
+			
+				<th> status </th>
+			
+		
+			
+				<th> source </th>
+			
+		
+			
+				<th> comments </th>
+			
+		
+			
+				<th> len_at_maturity_tlcm </th>
+			
+		
+			
+				<th> weight_to_len_eqn </th>
+			
+		
+			
+				<th> fish_or_invert </th>
+			
+		
+			
+				<th> synonym </th>
+			
+		
+		</tr>
+		</thead>
+		<tbody>
+	
+	<tr>
+	
+		<td> Acanthinucella sp. </td>
+	
+		<td> unicorn whelk snails </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Mollusca/Gastropoda/Prosobranchia/Order_Neogastropoda/Suborder_Rachiglossa/Family_Nucellidae/Acanthina_spirata.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Acanthogobius flavimanus </td>
+	
+		<td> yellowfin goby </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 24.6cm, range 18.3-32.9cm </td>
+	
+		<td> W=0.0088*L^2.86900 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Acantholithodes hispidus </td>
+	
+		<td> spiny lithode crab </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Anomura/Family_Lithodidae/Acantholithodes_hispidus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Acipenser medirostris </td>
+	
+		<td> green sturgeon </td>
+	
+		<td> native </td>
+	
+		<td> http://calfish.ucdavis.edu/species/?uid=35&amp;ds=241 </td>
+	
+		<td> None </td>
+	
+		<td> range 105-140cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Acipenser transmontanus </td>
+	
+		<td> white sturgeon </td>
+	
+		<td> native </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 161cm, range 120.1-215.5cm </td>
+	
+		<td> W=0.0029*L^3.23000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Acteocina inculta </td>
+	
+		<td> NA </td>
+	
+		<td> native </td>
+	
+		<td> NA </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Actinemys marmorata </td>
+	
+		<td> western pond turtle </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> other </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Albula gilberti </td>
+	
+		<td> Cortez bonefish </td>
+	
+		<td> non-native </td>
+	
+		<td> https://www.fishbase.se/summary/66312 </td>
+	
+		<td> native to Mexico </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Alloclinus holderi </td>
+	
+		<td> isIand kelpfish </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Alloclinus-holderi.html </td>
+	
+		<td> None </td>
+	
+		<td> 7cm, range 5.2-9.4 </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Alosa sapidissima </td>
+	
+		<td> American shad </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/species/?uid=3&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 43.4cm, range 38-48.5cm </td>
+	
+		<td> W=0.0065*L^2.95900 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ameiurus catus </td>
+	
+		<td> white catfish </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=180&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 27.3cm, range 20.4-36.6cm </td>
+	
+		<td> W=0.0120*L^3.01000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ameiurus melas </td>
+	
+		<td> black bullhead </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/164039 </td>
+	
+		<td> None </td>
+	
+		<td> 37.1cm, range 27.7-49.7cm </td>
+	
+		<td> W=0.0151*L^2.97700 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ameiurus natalis </td>
+	
+		<td> yellow bullhead </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/164041 </td>
+	
+		<td> None </td>
+	
+		<td> 34.1cm, range 25.5-45.7cm </td>
+	
+		<td> W=0.0152*L^2.9730 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ameiurus nebulosus </td>
+	
+		<td> brown bullhead </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/164043 </td>
+	
+		<td> None </td>
+	
+		<td> 26.6cm, range 20-33cm </td>
+	
+		<td> W=0.0101*L^3.06500 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Amphiodia periercta </td>
+	
+		<td> long arm brittle star </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/crustaceans.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Amphistichus argenteus </td>
+	
+		<td> barred surfperch </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.de/summary/Amphistichus-argenteus.html# </td>
+	
+		<td> None </td>
+	
+		<td> 29.5cm, range 22-39.6cm </td>
+	
+		<td> W=0.0300*L^3 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Anchoa compressa </td>
+	
+		<td> deep body anchovy </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/1686 </td>
+	
+		<td> None </td>
+	
+		<td> 9cm, range 6.7-12cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Anisotremus davidsonii </td>
+	
+		<td> Xantic sargo </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Anisotremus-davidsoni.html </td>
+	
+		<td> None </td>
+	
+		<td> 33.1cm, range 24.7-44.4cm </td>
+	
+		<td> W=0.0188*L^3 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Aplysia californica </td>
+	
+		<td> California sea hare </td>
+	
+		<td> native </td>
+	
+		<td> https://animaldiversity.org/accounts/Aplysia_californica/ </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Aplysia vaccaria </td>
+	
+		<td> giant sea hare </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Apodichthys flavidus </td>
+	
+		<td> penpoint gunnel </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 27cm, range 20.1-36.1cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Arcuatula senhousia </td>
+	
+		<td> green mussel </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/79577 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Argopecten sp </td>
+	
+		<td> scallop </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Argopecten ventricosus </td>
+	
+		<td> Pacific calico scallop </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fws.gov/species/pacific-calico-scallop-argopecten-ventricosus </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Artedius fenestralis </td>
+	
+		<td> padded sculpin </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 9.4cm, range 7.5-12.7cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Artedius notospilotus </td>
+	
+		<td> bonyhead sculpin </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 15.7cm, range 11.7-21.2cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Assiminea californica </td>
+	
+		<td> NA </td>
+	
+		<td> native </td>
+	
+		<td> NA </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Angustassiminea californica </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Atherinops affinis </td>
+	
+		<td> topsmelt silverside </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Atherinops-affinis.html </td>
+	
+		<td> None </td>
+	
+		<td> 22.3cm, range 16.6-29.8cm </td>
+	
+		<td> W=0.0400*L^2.5000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Atherinopsis californiensis </td>
+	
+		<td> jack silverside </td>
+	
+		<td> native </td>
+	
+		<td> https://biogeodb.stri.si.edu/sftep/en/thefishes/species/811 </td>
+	
+		<td> None </td>
+	
+		<td> 26.5cm, range 19.8-35.4cm </td>
+	
+		<td> W=0.0100*L^2.92000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Atherinops sp. </td>
+	
+		<td> silverside </td>
+	
+		<td> native </td>
+	
+		<td> https://biogeodb.stri.si.edu/sftep/en/thefishes/species/809 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Aulorhynchus flavidus </td>
+	
+		<td> tubenose </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Aulorhynchus-flavidus.html </td>
+	
+		<td> None </td>
+	
+		<td> 8.7cm, range 6.5-11.7cm </td>
+	
+		<td> W=0.0010*L^3.25600 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Aurelia coerulea </td>
+	
+		<td> moon jellyfish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/-265 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Batillaria attramentaria </td>
+	
+		<td> Japanese false clam </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/567272 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Blackfordia virginica </td>
+	
+		<td> black sea jellyfish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://core.ac.uk/download/pdf/32416952.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Blepsias cirrhosus </td>
+	
+		<td> silverspot sculpin </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 13cm, range 9.7-17.4 </td>
+	
+		<td> W=0.0088*L^3.02780 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Boonea bisuturalis </td>
+	
+		<td> two-groove odostome </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/75987 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Brachyistius frenatus </td>
+	
+		<td> kelp perch </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/3625 </td>
+	
+		<td> None </td>
+	
+		<td> 14.1cm, range 10.5-18.8 </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Bulla gouldiana </td>
+	
+		<td> bulla snail </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Busycotypus canaliculatus </td>
+	
+		<td> channeled whelk </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.exoticsguide.org/ </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Callianassa sp. </td>
+	
+		<td> ghost shrimp </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Callinectes arcuatus </td>
+	
+		<td> arched swimming crab </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Callinectes bellicosus </td>
+	
+		<td> Cortez Swimming Crab </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cancer antennarius </td>
+	
+		<td> rock crab </td>
+	
+		<td> native </td>
+	
+		<td> https://animaldiversity.org/accounts/Cancer_antennarius/ </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cancer anthonyi </td>
+	
+		<td> yellow rock crab </td>
+	
+		<td> native </td>
+	
+		<td> https://www.sealifebase.se/summary/Cancer-anthonyi.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cancer gracilis </td>
+	
+		<td> graceful rock crab </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Brachyura/Family_Cancridae/Cancer_gracilis.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Metacarcinus gracilis </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cancer productus </td>
+	
+		<td> Red Rock Crab </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/red-rock-crab-bull-cancer-productus.html </td>
+	
+		<td> Jess Turner requested this to be added on December 23 2021 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Carassius auratus </td>
+	
+		<td> goldfish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/163350 </td>
+	
+		<td> None </td>
+	
+		<td> 28cm, range 42.1-59.2cm </td>
+	
+		<td> W=0.0143*L^3.0800 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Carcinus maenas </td>
+	
+		<td> European green crab </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.exoticsguide.org/ </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Catostomus occidentalis </td>
+	
+		<td> sacramento sucker </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 34.1cm, range 25.5-45.7cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Catriona rickettsi </td>
+	
+		<td> Ricketts aeolis </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/78639 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Caulolatilus princeps </td>
+	
+		<td> ocean whitefish </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.in/summary/3539 </td>
+	
+		<td> None </td>
+	
+		<td> 54.5cm, range 40.7-73cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Centrostephanus coronatus </td>
+	
+		<td> black urchin </td>
+	
+		<td> native </td>
+	
+		<td> https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=131816&amp;inline </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cephaloscyllium ventriosum </td>
+	
+		<td> swell shark </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/802 </td>
+	
+		<td> None </td>
+	
+		<td> 58.3, range 43.5-78.1cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cerithidea californica </td>
+	
+		<td> California horn snail </td>
+	
+		<td> native </td>
+	
+		<td> https://trnerr.org/wp-content/uploads/2010/12/hs_curriculum_FIELD-GUIDE1.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cetengraulis mysticetus </td>
+	
+		<td> Pacific anchoveta </td>
+	
+		<td> non-native </td>
+	
+		<td> https://biogeodb.stri.si.edu/sftep/en/thefishes/species/505 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cheilotrema saturnum </td>
+	
+		<td> black croaker </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Cheilotrema-saturnum.html </td>
+	
+		<td> None </td>
+	
+		<td> 26.5cm, range 19.8-35.5cm </td>
+	
+		<td> W=0.0130*L^3.10600 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Chilara taylori </td>
+	
+		<td> spotted cusk eel </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Chilara-taylori.html# </td>
+	
+		<td> None </td>
+	
+		<td> 20.9cm, range 15.6-28cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Chione californiensis </td>
+	
+		<td> California venus </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Chione fluctifraga </td>
+	
+		<td> Smooth venus </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Chionista fluctifraga </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Chione undatella </td>
+	
+		<td> wavy cockle </td>
+	
+		<td> native </td>
+	
+		<td> https://trnerr.org/wp-content/uploads/2010/12/hs_curriculum_FIELD-GUIDE1.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Chlamys rubida </td>
+	
+		<td> smooth pink scallop </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/uc/item/6t96k2rn </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Chromis punctipinnis </td>
+	
+		<td> blacksmith </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Chromis-punctipinnis.html </td>
+	
+		<td> None </td>
+	
+		<td> 15.7cm, range 11.7-21.2cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cicadellidae sp. </td>
+	
+		<td> leafhopper </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Citharichthys sordidus </td>
+	
+		<td> Pacific sanddab </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Citharichthys-sordidus.html </td>
+	
+		<td> None </td>
+	
+		<td> 17.7cm, range 13.2-23.7cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Citharichthys stigmaeus </td>
+	
+		<td> speckled sanddab </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Citharichthys-stigmaeus.html# </td>
+	
+		<td> None </td>
+	
+		<td> 11.2cm, range 8.4-15cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Citharichthys xanthostigma </td>
+	
+		<td> longfin sanddab </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Citharichthys-xanthostigma.html </td>
+	
+		<td> None </td>
+	
+		<td> 15.7cm, range 11.7-21.2cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Clevelandia ios </td>
+	
+		<td> arrow goby </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/Summary/SpeciesSummary.php?ID=3840&amp;AT=arrow+goby </td>
+	
+		<td> None </td>
+	
+		<td> 4.7cm, range 3.5-6.3cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Clinocardium nuttallii </td>
+	
+		<td> heart cockle </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/uc/item/6t96k2rn </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Clinocottus acuticeps </td>
+	
+		<td> sharpnose sculpin </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 4.7cm, range 3.5-6.3cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Clinocottus analis </td>
+	
+		<td> wooly sculpin </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Clinocottus-analis.html </td>
+	
+		<td> None </td>
+	
+		<td> 8cm, range 5.9-10.7cm </td>
+	
+		<td> W=0.0193*L^3.07800 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Clupea pallasii </td>
+	
+		<td> Pacific herring </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 21.4cm, range 17.5-31.4cm </td>
+	
+		<td> W=0.0043*L^3.23200 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Corbicula fluminea </td>
+	
+		<td> Asian clam </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/81387 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Coryphopterus nicholsi </td>
+	
+		<td> blackeye goby </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 10cm, range 7.5-13.4cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> Rhinogobiops nicholsii </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cottus aleuticus </td>
+	
+		<td> coastrange sculpin </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 11.2cm, range 8.4-15cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cottus asper </td>
+	
+		<td> prickly sculpin </td>
+	
+		<td> native </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 18.5cm, range 13.8-24.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cottus asperrimus </td>
+	
+		<td> rough Sculpin </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 7.3cm, range 5.4-9.7cm </td>
+	
+		<td> W=0.0259*L^2.80000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Crangon franciscorum </td>
+	
+		<td> bay shrimp </td>
+	
+		<td> native </td>
+	
+		<td> https://watershed.ucdavis.edu/files/biblio/Suisun%20Marsh%20Fish%20Report%202017%20Final%20-%20No%20Appendix%20%28low%20res%29.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Crepidula convexa </td>
+	
+		<td> convex slippersnail </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/72624 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Crepidula plana </td>
+	
+		<td> Eastern white slippernsnail </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/72627 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cryptolithodes sitchensis </td>
+	
+		<td> umbrella crab </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Anomura/Family_Lithodidae/Cryptolithodes_sitchensis.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cryptomya californica </td>
+	
+		<td> California softshell clam </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/uc/item/6t96k2rn </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ctenogobius sagittula </td>
+	
+		<td> longtail goby </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 12.9cm, range 9.6-17.3cm </td>
+	
+		<td> W=0.0066*L^2.80000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cucumaria miniata </td>
+	
+		<td> orange sea cucumber </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/crustaceans.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cuthona perca </td>
+	
+		<td> lake merritt aeolis </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/-55 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cymatogaster aggregata </td>
+	
+		<td> shiner surfperch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 13.1cm, range 9.8-17.5cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cynoscion nobilis </td>
+	
+		<td> white seabass </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 72.4cm, range 54.8-98.3cm </td>
+	
+		<td> W=0.0123*L^2.94200 </td>
+	
+		<td> fish </td>
+	
+		<td> Atractoscion nobilis </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cynoscion parvipinnis </td>
+	
+		<td> Shortfin weakfish </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/3581 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cyprinella lutrensis </td>
+	
+		<td> red shiner </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=122&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 6.5cm, range 4.9-6.9cm </td>
+	
+		<td> W=0.0080*L^3.1320 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Cyprinus carpio </td>
+	
+		<td> common carp </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=44&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 34.8cm, range 25-36cm </td>
+	
+		<td> W=0.0370*L^2.89000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Dendraster excentricus </td>
+	
+		<td> eccentric sand dollar </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/crustaceans.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Dendronotus iris </td>
+	
+		<td> rainbow nudibranch </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Dermasterias imbricata </td>
+	
+		<td> leather star </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/crustaceans.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Diadumene lineata </td>
+	
+		<td> orange-striped green anemone </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.exoticsguide.org/diadumene_lineata </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Dorosoma petenense </td>
+	
+		<td> threadfin shad </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=167&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 5.2cm, range 5-5.5cm </td>
+	
+		<td> W=0.0148*L^2.80000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Elops affinis </td>
+	
+		<td> machete </td>
+	
+		<td> native </td>
+	
+		<td> https://fishbase.mnhn.fr/summary/2601 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Embiotoca jacksoni </td>
+	
+		<td> black perch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 23.3cm, range 17.4-31.2cm </td>
+	
+		<td> W=0.0616*L^2.86360 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Embiotoca lateralis </td>
+	
+		<td> striped surfperch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 22.8cm, 20.8-29.2cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Emerita analoga </td>
+	
+		<td> Pacific sand crab </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Engraulis mordax </td>
+	
+		<td> Californian anchovy </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 9.6cm, range 8.7-15.7cm </td>
+	
+		<td> W=0.0117*L^2.95000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Enophrys bison </td>
+	
+		<td> buffalo sculpin </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 22.3cm, 16.6-29.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Eriocheir sinensis </td>
+	
+		<td> Chinese mitten crab </td>
+	
+		<td> invasive </td>
+	
+		<td> https://wildlife.ca.gov/Conservation/Invasives/Species/Mitten-Crab </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Eucyclogobius newberryi </td>
+	
+		<td> tidewater goby </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 4.2cm, range 3.2-5.7cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ficopomatus enigmaticus </td>
+	
+		<td> Australian tubeworm </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=130988 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Fundulus heteroclitus </td>
+	
+		<td> mummichog </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 6.9cm, range 5.2-9.2cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Fundulus parvipinnis </td>
+	
+		<td> California killifish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 7.4cm, range 5.5-10cm </td>
+	
+		<td> W=0.0057*L^3.7 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gambusia affinis </td>
+	
+		<td> Western mosquitofish </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=178&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 4.3cm, range 3.2-5.8cm </td>
+	
+		<td> W=0.0095*L^3.23510 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gasterosteus aculeatus </td>
+	
+		<td> threespine stickleback </td>
+	
+		<td> native </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 5.5cm, range 4.3-7.6cm </td>
+	
+		<td> W=0.0068*L^3.26000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gemma gemma </td>
+	
+		<td> amethyst gem clam </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/81511 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Genyonemus lineatus </td>
+	
+		<td> white croaker </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 14cm, range 13-15cm </td>
+	
+		<td> W=0.0272*L^2.94300 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Geukensia demissa </td>
+	
+		<td> ribbed mussel </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.exoticsguide.org/geukensia_demissa </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gibbonsia elegans </td>
+	
+		<td> spotted kelpfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 10.6cm, range 8.6-14.2cm </td>
+	
+		<td> W=0.0086*L^3.10400 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gibbonsia montereyensis </td>
+	
+		<td> crevice kelpfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 7.6cm, range 5.7-10.2cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gila orcuttii </td>
+	
+		<td> arroyo chub </td>
+	
+		<td> native </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/553278 </td>
+	
+		<td> None </td>
+	
+		<td> 23.8cm, range 17.8-31.9cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gillichthys mirabilis </td>
+	
+		<td> longjaw mudsucker goby </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 13.4cm, range 11.3-15.8cm </td>
+	
+		<td> W=0.0200*L^3.1700 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Girella nigricans </td>
+	
+		<td> opaleye </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 37.1cm, range 27.7-49.7cm </td>
+	
+		<td> W=0.0151*L^3.36000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Glebocarcinus oregonensis </td>
+	
+		<td> pygmy rock crab </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/crustaceans.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gobiesox maeandricus </td>
+	
+		<td> Northern clingfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 10.6cm, range 8.6-12cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gymnothorax mordax </td>
+	
+		<td> California moray eel </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 77.5cm, range 57.9-103.9 </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Gymnura marmorata </td>
+	
+		<td> California butterfly ray </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 53.5cm, range 40-71.7cm </td>
+	
+		<td> W=0.0070*L^2.96000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Halichoeres semicinctus </td>
+	
+		<td> rock wrasse </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 22.8cm, range 17-30.5cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Haminoea japonica </td>
+	
+		<td> Japanese bubble snail </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/567649 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Haminoea vesicula </td>
+	
+		<td> bubble snail </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hemigrapsus nudus </td>
+	
+		<td> purple shore crab </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Brachyura/Family_Grapsidae/Hemigrapsus_nudus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hemigrapsus oregonensis </td>
+	
+		<td> yellow shore crab </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Brachyura/Family_Grapsidae/Hemigrapsus_oregonensis.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hemigrapsus sp. </td>
+	
+		<td> shore crab </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hemilepidotus hemilepidotus </td>
+	
+		<td> red Irish lord </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 29.5cm, range 22-39.6cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Henricia leviuscula </td>
+	
+		<td> blood star </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Henricia_leviuscula.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Heptacarpus sp. </td>
+	
+		<td> Heptacarpus sp. </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hermosilla azurea </td>
+	
+		<td> zebra perch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 26.5cm, range 19.8-35.54cm </td>
+	
+		<td> W=0.0194*L^3.23000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hesperoleucus symmetricus </td>
+	
+		<td> California roach </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Heterodontus francisci </td>
+	
+		<td> horn shark </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 63.9cm, range 47.7-85.6cm </td>
+	
+		<td> W=0.006*L^3.06000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Heterostichus rostratus </td>
+	
+		<td> giant kelpfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 25.5cm, range 19.1-34.2cm </td>
+	
+		<td> W=0.0022*L^3.39000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hexagrammos decagrammus </td>
+	
+		<td> kelp greenling </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 34.6cm, 25.8-46.3cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hippolyte californiensis </td>
+	
+		<td> California grass shrimp </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hippolyte sp. </td>
+	
+		<td> Hippolyte sp. </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hyperprosopon argenteum </td>
+	
+		<td> walleye surperch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 18.5cm, range 13.8-24.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hypomesus nipponensis </td>
+	
+		<td> wakasagi </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 6.5cm, range 6-7cm </td>
+	
+		<td> W=0.0089*L^2.87310 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hypomesus pretiosus </td>
+	
+		<td> surf smelt </td>
+	
+		<td> native </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 18.8cm, range 14-25.1cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hypomesus transpacificus </td>
+	
+		<td> Delta smelt </td>
+	
+		<td> native </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 6cm, range 6-7cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hyporhamphus gilli </td>
+	
+		<td> Choelo halfbeak </td>
+	
+		<td> non-native </td>
+	
+		<td> https://mexican-fish.com/choelo-halfbeak/ </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hyporhamphus naos </td>
+	
+		<td> Pacific silverstripe halfbeak </td>
+	
+		<td> non-native </td>
+	
+		<td> https://mexican-fish.com/pacific-silverstripe-halfbeak/ </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hyporhamphus rosae </td>
+	
+		<td> California halfbeak </td>
+	
+		<td> native </td>
+	
+		<td> https://fishbase.se/summary/3159 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hyporhamphus sp. </td>
+	
+		<td> halfbeak </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hypsoblennius gentilis </td>
+	
+		<td> bay blenny </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 10cm, range 7.5-13.4cm </td>
+	
+		<td> W=0.0112*L^2.9790 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hypsoblennius gilberti </td>
+	
+		<td> rockpool blenny </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 11.2cm, range 8.4-15cm </td>
+	
+		<td> W=0.0133*L^3.1010 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hypsoblennius sp. </td>
+	
+		<td> blenny </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hypsopsetta guttulata </td>
+	
+		<td> diamond turbot </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 27cm, range 20.1-36.1cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hypsurus caryi </td>
+	
+		<td> rainbow surfperch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 18.5cm, range 13.8-22.9cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Hysterocarpus traskii </td>
+	
+		<td> tule Perch </td>
+	
+		<td> native </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 10cm, range 7.5-13.4cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ictalurus furcatus </td>
+	
+		<td> blue catfish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/163997 </td>
+	
+		<td> None </td>
+	
+		<td> 55cm, rnage 41.1-73.7cm </td>
+	
+		<td> W=0.0020*L^3.41000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ictalurus punctatus </td>
+	
+		<td> channel catfish </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=31&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 43.1cm, range 54-67.2cm </td>
+	
+		<td> W=0.0029*L^3.30000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Idotea sp. </td>
+	
+		<td> isopods </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ilyanassa obsoleta </td>
+	
+		<td> Eastern mudsnail </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.exoticsguide.org/ </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Tritia obsoleta </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ilypnus gilberti </td>
+	
+		<td> cheekspot goby </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 4.7cm, range 3.5-6.3cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> juvenile crab </td>
+	
+		<td> juvenile crab </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> juvenile goby </td>
+	
+		<td> juvenile goby </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> juvenile mullet </td>
+	
+		<td> juvenile mullet </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> juvenile topsmelt </td>
+	
+		<td> juvenile topsmelt </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Laevicardium substriatum </td>
+	
+		<td> Pacific eggcockle </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lampetra tridentata </td>
+	
+		<td> Pacific lamprey </td>
+	
+		<td> native </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 42cm, range 31.4-56.3cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Laternula gracilis </td>
+	
+		<td> None </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/-201 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Leostyletus misakiensis </td>
+	
+		<td> misaki ballon aeolis </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/78612 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lepidogobius lepidus </td>
+	
+		<td> bay goby </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 6.6cm, range 4.9-8.8cm </td>
+	
+		<td> W=0.0083*L^3.10000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lepomis cyanellus </td>
+	
+		<td> green sunfish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/168132 </td>
+	
+		<td> None </td>
+	
+		<td> 19cm, range 14.2-25.5cm </td>
+	
+		<td> W=0.0199*L^3.19000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lepomis gibbosus </td>
+	
+		<td> pumpkinseed </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=118&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 20.2cm, range 15.1-27cm </td>
+	
+		<td> W=0.0103*L^3.23800 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Leptocottus armatus </td>
+	
+		<td> Pacific staghorn sculpin </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 27cm, 
+range 20.1-36.1cm </td>
+	
+		<td> W=0.0400*L^2.82000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Leukoma staminea </td>
+	
+		<td> Pacific littleneck clam </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/pacific-littleneck-clam-bull-leukoma-staminea.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Leuresthes tenuis </td>
+	
+		<td> California grunion </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 11.9cm, range 9.2-16.6cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ligia sp. </td>
+	
+		<td> isopod </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Limecola petalum </td>
+	
+		<td> Atlantic macoma </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/-204 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Linckia columbiae </td>
+	
+		<td> fragile star </td>
+	
+		<td> native </td>
+	
+		<td> https://www.sealifebase.se/summary/Linckia-columbiae.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lirobittium quadrifilatum </td>
+	
+		<td> NA </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lithobates catesbeianus </td>
+	
+		<td> American bullfrog </td>
+	
+		<td> non-native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> other </td>
+	
+		<td> Rana catesbeiana </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Littorina sp. </td>
+	
+		<td> periwinkle snails </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/group_profiles </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Loxorhynchus crispatus </td>
+	
+		<td> decorator crab </td>
+	
+		<td> native </td>
+	
+		<td> https://www.sealifebase.ca/summary/Loxorhynchus-crispatus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lucania parva </td>
+	
+		<td> rainwater killifish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 4.6cm, range 3.4-6.2cm </td>
+	
+		<td> W=0.14*L^3.59800 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lyrodus pedicellatus </td>
+	
+		<td> blacktip shipworm </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/81878 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lytechinus anamesus </td>
+	
+		<td> white urchin </td>
+	
+		<td> native </td>
+	
+		<td> https://www.sealifebase.ca/summary/Lytechinus-anamesus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lythrypnus dalli </td>
+	
+		<td> bluebanded goby </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 4.7cm, range 3.4-4.7cm </td>
+	
+		<td> W=0.0099*L^2.97300 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Lythrypnus zebra </td>
+	
+		<td> zebra goby </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 4.2cm, range 3.2-5.7cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Macoma balthica </td>
+	
+		<td> Baltic macoma </td>
+	
+		<td> invasive </td>
+	
+		<td> https://escholarship.org/uc/item/6t96k2rn </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Limecola balthica </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Macoma inquinata </td>
+	
+		<td> Eastern softshell clam </td>
+	
+		<td> invasive </td>
+	
+		<td> https://escholarship.org/uc/item/6t96k2rn </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Macoma nasuta </td>
+	
+		<td> Bent-nose clam </td>
+	
+		<td> native </td>
+	
+		<td> https://trnerr.org/wp-content/uploads/2010/12/hs_curriculum_FIELD-GUIDE1.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Maeotias marginata </td>
+	
+		<td> black sea jellyfish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://watershed.ucdavis.edu/files/biblio/Suisun%20Marsh%20Clams%20Jellies%20BDSC%202016%20Final.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Magallana gigas </td>
+	
+		<td> Pacific oyster </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/79868 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Medialuna californiensis </td>
+	
+		<td> halfmoon </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 28cm, range 20.9-37cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Megastraea undosa </td>
+	
+		<td> wavy turban snail </td>
+	
+		<td> native </td>
+	
+		<td> https://web.csulb.edu/colleges/cnsm/depts/biology/invertebrate_reproduction/mollusca.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Melampus olivaceus </td>
+	
+		<td> coffee bean snail </td>
+	
+		<td> native </td>
+	
+		<td> https://web.csulb.edu/colleges/cnsm/depts/biology/invertebrate_reproduction/mollusca.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Melanochlamys ezoensis </td>
+	
+		<td> Japanese aglaja </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/-653 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Melanoides tuberculata </td>
+	
+		<td> red-rim melania </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/71533 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Menidia beryllina </td>
+	
+		<td> inland silverside </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 10cm, range 7.5-13.4cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Menticirrhus undulatus </td>
+	
+		<td> California corbina </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 25.2cm, range 18.8-33.7cm </td>
+	
+		<td> W=0.0570*L^2.46400 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Metacarcinus gracilis </td>
+	
+		<td> Graceful Rock Crab </td>
+	
+		<td> native </td>
+	
+		<td> https://www.eopugetsound.org/species/metacarcinus-gracilis </td>
+	
+		<td> Jess Turner requested this to added on December 23 2021 - asking the common name to be Graceful Rock Crab or Slender Crab. Graceful Rock Crab more closely resembles the site so that was chosen </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Metacarcinus magister </td>
+	
+		<td> dungeness crab </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Brachyura/Family_Cancridae/Cancer_magister.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Micropterus salmoides </td>
+	
+		<td> largemouth bass </td>
+	
+		<td> invasive </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 28.5cm, 21.3-38.2cm </td>
+	
+		<td> W=0.0111*L^3.10800 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Microstomus pacificus </td>
+	
+		<td> dover sole </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 23.5cm, range 38-40cm </td>
+	
+		<td> W=0.0122*L^2.93870 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Modiolus modiolus </td>
+	
+		<td> horse mussel </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Molgula sp. </td>
+	
+		<td> sea squirt </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Morone saxatilis </td>
+	
+		<td> striped bass </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 53.2cm, range 39.7-71.2cm </td>
+	
+		<td> W=0.0061*l^3.15300 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Mugil cephalus </td>
+	
+		<td> striped mullet </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 35.4cm, range 30-43.8cm </td>
+	
+		<td> W=0.0132*L^2.92900 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Munida quadrispina </td>
+	
+		<td> squat lobster </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Anomura/Family_Galatheidae/Munida_quadrispina.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Musculista senhousia </td>
+	
+		<td> green bagmussel </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.exoticsguide.org/node/115 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Arcuatula senhousia </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Mustelus californicus </td>
+	
+		<td> gray smoothhound </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 70cm, range 63.1-113.3cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Mustelus henlei </td>
+	
+		<td> brown smoothhound </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 57cm, range 51-63cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Mustelus mustelus </td>
+	
+		<td> smoothhound shark </td>
+	
+		<td> non-native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> **did not see records of this fish in california/baja </td>
+	
+		<td> 72.9cm, range 54.4-97.7 </td>
+	
+		<td> W=0.0022*L^3.110000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Mya arenaria </td>
+	
+		<td> soft shell clam </td>
+	
+		<td> invasive </td>
+	
+		<td> https://escholarship.org/uc/item/6t96k2rn </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Myliobatis californica </td>
+	
+		<td> bat ray </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 120.2cm, range 89.7-161cm </td>
+	
+		<td> W=0.0130*L^3.0000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Myosotella myosotis </td>
+	
+		<td> mouse ear snail </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.exoticsguide.org/ </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Mytilus californianus </td>
+	
+		<td> California mussel </td>
+	
+		<td> native </td>
+	
+		<td> https://marine.ucsc.edu/target/target-species-mytilus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Mytilus galloprovincialis </td>
+	
+		<td> bay mussel </td>
+	
+		<td> invasive </td>
+	
+		<td> https://caseagrant.ucsd.edu/seafood-profiles/mediterranean-mussel </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Nassarius sp. </td>
+	
+		<td> nassa mud snail </td>
+	
+		<td> Not recorded </td>
+	
+		<td> http://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=138235 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Navanax inermis </td>
+	
+		<td> California aglaja </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Neobernaya spadicea </td>
+	
+		<td> chestnut cowrie </td>
+	
+		<td> native </td>
+	
+		<td> http://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=580674 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Neotrypaea californiensis </td>
+	
+		<td> bay ghost shrimp </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/uc/item/6t96k2rn </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Not recorded </td>
+	
+		<td> Not recorded </td>
+	
+		<td> Not recorded </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td>  </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Nucella sp. </td>
+	
+		<td> dog whelk snails </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Mollusca/Gastropoda/Prosobranchia/Order_Neogastropoda/Suborder_Rachiglossa/Family_Nucellidae/Nucella_ostrina.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Nutricola tantilla </td>
+	
+		<td> purple dwarf venus </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/uc/item/6t96k2rn </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ocinebrellus inornatus </td>
+	
+		<td> Japanese oyster drill </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/species_summary/73246 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Octopus bimaculatus </td>
+	
+		<td> California two-spot octopus </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Okenia plana </td>
+	
+		<td> flat okenia </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/78423 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Okenia eolida </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Oligocottus maculosus </td>
+	
+		<td> tidepool sculpin </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 6.7cm, range 5-7.1cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Oncorhynchus clarkii clarkii </td>
+	
+		<td> coastal cutthroat trout </td>
+	
+		<td> native </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=38&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 16.5cm, range 15-18cm </td>
+	
+		<td> W=0.0087*L^3.0000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Oncorhynchus keta </td>
+	
+		<td> chum salmon </td>
+	
+		<td> native </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=32&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 70cm, range 45.9-82.4cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Oncorhynchus kisutch </td>
+	
+		<td> Coho salmon </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 57.3cm, range 42.8-76.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Oncorhynchus mykiss </td>
+	
+		<td> steelhead trout </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 65.8cm, range 49.1-88.2cm </td>
+	
+		<td> W=0.0117*L^2.99700 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Oncorhynchus tshawytscha  </td>
+	
+		<td> Chinook salmon </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 82.2cm, range 57.2-102.7cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ophichthus zophochir </td>
+	
+		<td> yellow snake eel </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 40.8cm, range 30.5-54.7cm </td>
+	
+		<td> W=0.0006*L^3.14840 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ophiodon elongatus </td>
+	
+		<td> lingcod </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 70.5cm, range 61-76cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ophiuroidea sp. </td>
+	
+		<td> brittle stars </td>
+	
+		<td> native </td>
+	
+		<td> https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031940 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Orconectes virilis </td>
+	
+		<td> virile crayfish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/97425 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ostrea lurida </td>
+	
+		<td> Olympia oyster </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Mollusca/Bivalvia/Ostreoida/Ostreidae/Ostrea_lurida.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Oxyjulis californica </td>
+	
+		<td> senorita </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 15.7cm, range 11.7-21.1cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Oxylebius pictus </td>
+	
+		<td> painted greenling </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 15.7cm, range 11.7-21.1cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pachycheles rudis </td>
+	
+		<td> lumpy porcelain crab </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Anomura/Family_Porcellanidae/Pachycheles_rudis.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pachygrapsus crassipes </td>
+	
+		<td> striped shore crab </td>
+	
+		<td> native </td>
+	
+		<td> https://under-morro-bay.ucsd.edu/invertebrates/striped-shore-crab </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pachygrapsus sp. </td>
+	
+		<td> shore crab </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pagurus sp. </td>
+	
+		<td> hermit crab </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt7sk9t2dz/qt7sk9t2dz.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Palaemon macrodactylus </td>
+	
+		<td> oriental shrimp </td>
+	
+		<td> invasive </td>
+	
+		<td> https://nerrssciencecollaborative.org/media/files/Vol%20I-II-III_Suisun%20Conservation%20Assessment_Sep2011(lo-res).pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Palaemon modestus </td>
+	
+		<td> Siberian prawn </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/96574 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pandalus hypsinotus </td>
+	
+		<td> coonstripe shrimp </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/crustaceans.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pandalus platyceros </td>
+	
+		<td> spot prawn </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/crustaceans.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Panopea abrupta </td>
+	
+		<td> geoduck </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Mollusca/Bivalvia/Myoida/Hiatellidae/Panopea_abrupta.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Panulirus interruptus </td>
+	
+		<td> California spiny lobster </td>
+	
+		<td> native </td>
+	
+		<td> https://caseagrant.ucsd.edu/seafood-profiles/california-spiny-lobster </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Paraclinus integripinnis </td>
+	
+		<td> finspot kelpfish </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> 4.7cm, 3.5-6.2cm </td>
+	
+		<td> W=0.0146*L^2.86300 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Paralabrax clathratus </td>
+	
+		<td> kelp bass </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 35cm, range 26.1-46.9cm </td>
+	
+		<td> W=0.0027*L^3.27000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Paralabrax maculatofasciatus </td>
+	
+		<td> spotted sand bass </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 20.4cm, range 15.2-27.3cm </td>
+	
+		<td> W=0.0160*L^2.92800 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Paralabrax nebulifer </td>
+	
+		<td> barred sand bass </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 37.6cm, range 28-50.3cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Paralabrax sp. </td>
+	
+		<td> juvenile bass </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Paralichthys californicus </td>
+	
+		<td> California halibut </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 47.3cm, range 47-51.3cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Parastichopus californicus </td>
+	
+		<td> California sea cucumber </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Parastichopus_californicus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Apostichopus californicus </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Parastichopus parvimensis </td>
+	
+		<td> warty sea cucumber </td>
+	
+		<td> native </td>
+	
+		<td> https://caseagrant.ucsd.edu/seafood-profiles/warty-sea-cucumber-0 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Apostichopus parvimensis </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Patiria miniata </td>
+	
+		<td> bat stars </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Asterina_miniata.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Penaeus californiensis </td>
+	
+		<td> brown shrimp </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Penaeus stylirostris </td>
+	
+		<td> Pacific blue shrimp </td>
+	
+		<td> non-native </td>
+	
+		<td> https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=584982 </td>
+	
+		<td> native to Mexico </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Percina macrolepida </td>
+	
+		<td> big scale log perch </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/species/?uid=6&amp;ds=241 </td>
+	
+		<td> None </td>
+	
+		<td> 7.6cm, range 5.8-8.2cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Petrolisthes cinctipes </td>
+	
+		<td> porcelain crab </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Anomura/Family_Porcellanidae/Petrolisthes_cinctipes.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Phanerodon furcatus </td>
+	
+		<td> white surfperch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 19.6cm, range 14.6-26.2cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Philine auriformis </td>
+	
+		<td> tortellini snail </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/568082 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Philine orientalis </td>
+	
+		<td> oriental sea slug </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/-195 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pholis laeta </td>
+	
+		<td> crescent gunnel </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> 15.7cm, range 11.7-21.1cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pholis ornata </td>
+	
+		<td> saddleback gunnel </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 18.5cm, range 13.8-24.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Phrontis tiarula </td>
+	
+		<td> western mud nassa </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Phyllorhiza punctata </td>
+	
+		<td> white-spotted jellyfish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/51829 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pimephales promelas </td>
+	
+		<td> Fathead minnow </td>
+	
+		<td> non-native </td>
+	
+		<td> https://fishbase.mnhn.fr/summary/4785 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pisaster ochraceus </td>
+	
+		<td> ochre sea star </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Echinodermata/Class%20Asteroidea/Pisaster_ochraceus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Platichthys stellatus </td>
+	
+		<td> starry flounder </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 28.5cm, range 21.3-38.2cm </td>
+	
+		<td> W=0.0121*L^3.08100 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Platyrhinoidis triseriata </td>
+	
+		<td> thornback guitarfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 49.3cm, range 36.8-66cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pleurobrachia bachei </td>
+	
+		<td> sea gooseberry </td>
+	
+		<td> native </td>
+	
+		<td> https://core.ac.uk/download/pdf/32416952.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pleuronectes vetulus </td>
+	
+		<td> English sole </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 31cm, range 30-32cm </td>
+	
+		<td> W=0.0038*L^3.12700 </td>
+	
+		<td> fish </td>
+	
+		<td> Parophrys vetulus </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pleuronichthys coenosus </td>
+	
+		<td> C-O sole </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 21.7cm, range 16.2-29.1cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pleuronichthys ritteri </td>
+	
+		<td> spotted turbot </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 18.5cm, range 13.8-24.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pleuronichthys verticalis </td>
+	
+		<td> hornyhead turbot </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 22.3cm, range 20.3-28.4cm </td>
+	
+		<td> W=0.014*L^3.124000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Poecilia latipinna </td>
+	
+		<td> sailfin molly </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/165898 </td>
+	
+		<td> None </td>
+	
+		<td> 6.7cm, range 5-9.5cm </td>
+	
+		<td> W=0.026*L^2.88000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pogonichthys macrolepidotus </td>
+	
+		<td> splittail </td>
+	
+		<td> native </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 25.9cm, range 24.2-33.9cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Polyorchis penicillatus </td>
+	
+		<td> red eye jellyfish </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Cnidaria/Class-Hydrozoa/Hydromedusae/Polyorchis_penicillatus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pomoxis sp. </td>
+	
+		<td> crappie </td>
+	
+		<td> invasive </td>
+	
+		<td> http://calfish.ucdavis.edu/species/?ds=241&amp;uid=112 </td>
+	
+		<td> None </td>
+	
+		<td> 30.6cm, range 22.8-41cm </td>
+	
+		<td> W=0.0092*L^3.1180 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Porichthys myriaster </td>
+	
+		<td> specklefin midshipman </td>
+	
+		<td> native </td>
+	
+		<td> https://fishbase.mnhn.fr/summary/3070 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Porichthys notatus </td>
+	
+		<td> plainfin midshipman </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 22.8cm, range 17-30.5cm </td>
+	
+		<td> W=0.0080*L^3.04700 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Portunus xantusii </td>
+	
+		<td> Xantus swimming crab </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Potamocorbula amurensis </td>
+	
+		<td> overbite clam </td>
+	
+		<td> invasive </td>
+	
+		<td> https://trnerr.org/wp-content/uploads/2010/12/hs_curriculum_FIELD-GUIDE1.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Potamopyrgus antipodarum </td>
+	
+		<td> New Zealand mud snail </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/205006 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Procambarus clarkii </td>
+	
+		<td> red swamp crayfish </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/97491 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Protothaca staminea </td>
+	
+		<td> Pacific littleneck clam </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Mollusca/Bivalvia/Veneroida/Veneridae/Protothaca_staminea.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Leukoma staminea </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Psettichthys melanostictus </td>
+	
+		<td> Pacific sand sole </td>
+	
+		<td> native </td>
+	
+		<td> https://fishbase.mnhn.fr/summary/Psettichthys-melanostictus.html </td>
+	
+		<td> Jan confirmed that this be added on 1/29/2024, requested by Marwah (MLML) </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pseudacris regilla </td>
+	
+		<td> Pacific treefrog tadpole </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> neither </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ptychocheilus grandis </td>
+	
+		<td> Sacramento pikeminnow </td>
+	
+		<td> native </td>
+	
+		<td> http://calfish.ucdavis.edu/location/?uid=134&amp;ds=698 </td>
+	
+		<td> None </td>
+	
+		<td> 72.1cm, range 53.8-96.6cm </td>
+	
+		<td> W=0.0065*L^3.0000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Pugettia sp. </td>
+	
+		<td> kelp crab </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Eucarida/Decapoda/Brachyura/Family_Majidae/Pugettia_producta.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Quietula y-cauda </td>
+	
+		<td> shadow goby </td>
+	
+		<td> native </td>
+	
+		<td> https://fishbase.mnhn.fr/summary/Quietula-y-cauda </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Raja binoculata </td>
+	
+		<td> big skate </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 117.8cm, range 87.9-157.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Raja inornata </td>
+	
+		<td> California skate </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 42cm, range 42.4-59.4cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Rhacochilus toxotes </td>
+	
+		<td> rubberlip surfperch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 27.5cm, range 20.5-36.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Rhacochilus vacca </td>
+	
+		<td> pile perch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 26.1cm, range 19.4-34.9cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Rhinobatos productus </td>
+	
+		<td> shovelnose guitarfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 87.9cm, range 65.6-117.7cm </td>
+	
+		<td> W=0.0045*L^2.92000 </td>
+	
+		<td> fish </td>
+	
+		<td> Pseudobatos productus </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Rhinogobiops nicholsii </td>
+	
+		<td> blackeye goby </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 10cm, range 7.5-13.4cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Rhithropanopeus harrisii </td>
+	
+		<td> Harris mud crab </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/98790 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Roncador stearnsii </td>
+	
+		<td> spotfin croaker </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 26.8cm, range 20-35.9cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Ruditapes philippinarum </td>
+	
+		<td> Japanese littleneck clam (manila clam) </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/81477 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Saldidae sp. </td>
+	
+		<td> shore bugs </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Sardinops sagax </td>
+	
+		<td> Pacific sardine </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 19cm, range 14.2-26.4cm </td>
+	
+		<td> W=0.0090*L^3.10000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Scomber japonicus </td>
+	
+		<td> chub mackerel </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 26.1cm, range 16.4-29.4cm </td>
+	
+		<td> W=0.0040*L^3.22000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Scorpaena guttata </td>
+	
+		<td> California scorpionfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 20.1cm, range 15-27cm </td>
+	
+		<td> W=0.0330*L^2.99600 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Scorpaenichthys marmoratus </td>
+	
+		<td> cabezon </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 31.9cm, range 23.8-42.7cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Scorpaenidae sp. </td>
+	
+		<td> rockfish </td>
+	
+		<td> Not recorded </td>
+	
+		<td> https://www.fishbase.se/summary/FamilySummary.php?ID=264 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Sebastes auriculatus </td>
+	
+		<td> brown rockfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 31cm, range 26-38cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Sebastes caurinus </td>
+	
+		<td> copper rockfish </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/fish.html </td>
+	
+		<td> None </td>
+	
+		<td> 34cm, range 31-41cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Sebastes melanops </td>
+	
+		<td> black rockfish </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 40.3cm, 
+range 30-42cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Sebastes rastrelliger </td>
+	
+		<td> grass rockfish </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 27.7cm, range 20.7-37.1cm </td>
+	
+		<td> W=0.0220*L^3.0 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Sebastes sp. </td>
+	
+		<td> unknown rockfish </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Semicossyphus pulcher </td>
+	
+		<td> California sheephead </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 30.4cm, range 22.7-40.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Seriola lalandi </td>
+	
+		<td> yellowtail amberjack </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 74.3cm, range 55.4-99.5cm </td>
+	
+		<td> W=0.0337*L^2.75000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Seriphus politus </td>
+	
+		<td> queenfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 10.3cm, range 10-10.5cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Siliqua patula </td>
+	
+		<td> razor clam </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Sphoeroides annulatus </td>
+	
+		<td> Bullseye pufferfish </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> 25.9cm, range 19.3-34.7cm </td>
+	
+		<td> W0.0263*L^2.94000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Sphyraena sp. </td>
+	
+		<td> barracuda </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Spirinchus starksi </td>
+	
+		<td> night smelt </td>
+	
+		<td> native </td>
+	
+		<td> https://escholarship.org/content/qt6t96k2rn/qt6t96k2rn_noSplash_c904d58fa5b15d745342dd9106ca4010.pdf?t=p30bdl </td>
+	
+		<td> None </td>
+	
+		<td> 14.6cm, range 10.9-19.6cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Spirinchus thaleichthys </td>
+	
+		<td> longfin smelt </td>
+	
+		<td> native </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 12.7cm, range 9-17cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Squatina californica </td>
+	
+		<td> Pacific angelshark </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 97cm, range 86-108cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Strongylocentrotus franciscanus </td>
+	
+		<td> red urchin </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Echinoida/Strongylocentrotidae/Strongylocentrotus_franciscanus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Mesocentrotus franciscanus </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Strongylocentrotus purpuratus </td>
+	
+		<td> purple urchin </td>
+	
+		<td> native </td>
+	
+		<td> https://inverts.wallawalla.edu/Echinodermata/Class%20Echinoidea/Echinoida/Strongylocentrotidae/Strongylocentrotus_purpuratus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Strongylura exilis </td>
+	
+		<td> California needlefish </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> 49.3cm, range 36.8-66cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Symphurus atricauda </td>
+	
+		<td> California tonguefish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 13.5cm, range 10-18cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> Symphurus atricaudus </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Syngnathus auliscus </td>
+	
+		<td> barred pipefish </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/Syngnathus-auliscus.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Syngnathus leptorhynchus </td>
+	
+		<td> bay pipefish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 19.8cm, range 
+14.8-26.6cm </td>
+	
+		<td> W=0.0002*L^3.1200 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Syngnathus sp. </td>
+	
+		<td> pipefish </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Synodus lucioceps </td>
+	
+		<td> California lizardfish </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 36.1cm, range 27-48.4cm </td>
+	
+		<td> W=0.009*L^2.90700 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Tagelus affinis </td>
+	
+		<td> NA </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Tagelus californianus </td>
+	
+		<td> California jack-knife clam </td>
+	
+		<td> native </td>
+	
+		<td> https://trnerr.org/wp-content/uploads/2010/12/hs_curriculum_FIELD-GUIDE1.pdf </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Tagelus subteres </td>
+	
+		<td> lesser tagelus </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Tegula sp. </td>
+	
+		<td> turban snails </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/black-turban-snail-bull-tegula-funebralis.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Teredo bartschi </td>
+	
+		<td> Bartsch shipworm </td>
+	
+		<td> invasive </td>
+	
+		<td> https://invasions.si.edu/nemesis/calnemo/species_summary/81866 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Thaleichthys pacificus </td>
+	
+		<td> Eulachon </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fisheries.noaa.gov/species/eulachon </td>
+	
+		<td> None </td>
+	
+		<td> 15.5cm, range 15-16cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Torpedo californica </td>
+	
+		<td> electric ray </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 69.3cm, range 51.7-92.8cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Trachurus symmetricus </td>
+	
+		<td> Pacific jack mackerel </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 30.9cm, range 23.1-41.4cm </td>
+	
+		<td> W=0.0044*L^3.21200 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Tresus nuttallii </td>
+	
+		<td> Pacific gaper </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/pacific-gaper-bull-tresus-nuttallii.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Triakis semifasciata </td>
+	
+		<td> leopard shark </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 109.8cm, range 100-129cm </td>
+	
+		<td> W=0.0031*L^3.05000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Tridentiger barbatus </td>
+	
+		<td> shokihaze goby </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 7.3cm, range 5.4-9.7cm </td>
+	
+		<td> W=0.006*L^3.41600 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Tridentiger bifasciatus </td>
+	
+		<td> shimofuri goby </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/deltaflow/docs/exhibits/swrcb/swrcb_matern2002.pdf </td>
+	
+		<td> None </td>
+	
+		<td> 8.2cm, range 6.2-11cm </td>
+	
+		<td> W=0.014*L^3.00300 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Tridentiger trigonocephalus </td>
+	
+		<td> chameleon goby </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.fishbase.se/summary/Tridentiger-trigonocephalus.html </td>
+	
+		<td> None </td>
+	
+		<td> 7.6cm, range 5.8-8.2cm </td>
+	
+		<td> W=0.0039*L^3.42000 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Uca crenulata </td>
+	
+		<td> Mexican fiddler crab </td>
+	
+		<td> native </td>
+	
+		<td> https://sci-hub.se/https://academic.oup.com/jcb/article/40/4/364/5843561 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> Leptuca crenulata </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Umbrina roncador </td>
+	
+		<td> yellowfin croaker </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 18.4cm, range 13.7-24.7cm </td>
+	
+		<td> W-0.0100*L^2.98100 </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unidentifiable fish </td>
+	
+		<td> unidentifiable fish </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> Jan requested this to be added on 11/28 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown blenny </td>
+	
+		<td> unknown blenny </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown brine shrimp </td>
+	
+		<td> unknown brine shrimp </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown bug </td>
+	
+		<td> unknown bug </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown clam </td>
+	
+		<td> unknown clam </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown copepod </td>
+	
+		<td> unknown copepod </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown crab </td>
+	
+		<td> unknown crab </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown Cyprinidae </td>
+	
+		<td> unknown Cyprinidae </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown fish </td>
+	
+		<td> unknown fish </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown flatfish </td>
+	
+		<td> unknown flatfish </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown goby </td>
+	
+		<td> unknown goby </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown invertebrate </td>
+	
+		<td> unknown invertebrate </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown isopod </td>
+	
+		<td> unknown isopod </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown jellyfish </td>
+	
+		<td> unknown jellyfish </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown juvenile fish </td>
+	
+		<td> unknown juvenile fish </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown kelpfish </td>
+	
+		<td> unknown kelpfish </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown mussel </td>
+	
+		<td> unknown mussel </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown nudibranch </td>
+	
+		<td> unknown nudibranch </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown ray </td>
+	
+		<td> unknown ray </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown sculpin </td>
+	
+		<td> unknown sculpin </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown shark </td>
+	
+		<td> unknown shark </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown shrimp </td>
+	
+		<td> unknown shrimp </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown smelt </td>
+	
+		<td> unknown smelt </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown snail </td>
+	
+		<td> unknown snail </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown sponge </td>
+	
+		<td> unknown sponge </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown surfperch </td>
+	
+		<td> unknown surfperch </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown tadpole </td>
+	
+		<td> unknown tadpole </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> unknown whelk </td>
+	
+		<td> unknown whelk </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Upogebia macginitieorum </td>
+	
+		<td> southern mud shrimp </td>
+	
+		<td> Not recorded </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Upogebia pugettensis </td>
+	
+		<td> blue mud crab </td>
+	
+		<td> native </td>
+	
+		<td> https://www.centralcoastbiodiversity.org/crustaceans.html </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Urobatis halleri </td>
+	
+		<td> California round ray </td>
+	
+		<td> native </td>
+	
+		<td> https://www.fishbase.se/summary/urobatis-halleri </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Urosalpinx cinerea </td>
+	
+		<td> Atlantic oyster drill </td>
+	
+		<td> invasive </td>
+	
+		<td> https://www.exoticsguide.org/ </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Velella velella </td>
+	
+		<td> by-the-wind sailors </td>
+	
+		<td> native </td>
+	
+		<td> http://sio-legacy.ucsd.edu/zooplanktonguide/species/velella-velella </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Venerupis philippinarum </td>
+	
+		<td> manila clam </td>
+	
+		<td> non-native </td>
+	
+		<td> https://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=367756 </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> invert </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Xenistius californiensis </td>
+	
+		<td> Californian salema </td>
+	
+		<td> native </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> Brachygenys californiensis </td>
+	
+	</tr>
+
+	
+	<tr>
+	
+		<td> Zalembius rosaceus </td>
+	
+		<td> pink surfperch </td>
+	
+		<td> native </td>
+	
+		<td> http://www.fishbase.org/search.php </td>
+	
+		<td> None </td>
+	
+		<td> 12.9cm, range 9.6-17.3cm </td>
+	
+		<td> None </td>
+	
+		<td> fish </td>
+	
+		<td> None </td>
+	
+	</tr>
+
+	</tbody>
+</table>
+</body>
+</html>

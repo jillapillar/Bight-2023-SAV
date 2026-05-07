@@ -1,0 +1,22 @@
+stratum,function_,mean,sd,min,max,range,fun_condition
+estuary,carbon.sequestration,2.115,1.064,1,3.5,2.5,moderate condition
+estuary,nekton.habitat,2.577,0.806,1,3.5,2.5,good condition
+estuary,primary.production,2.413,0.56,1.5,3.17,1.67,moderate condition
+estuary,secondary.production,2.322,0.823,1.4,3.5,2.1,moderate condition
+estuary,substrate.stabilization,2.41,0.909,1,3.75,2.75,moderate condition
+estuary,waterfowl.habitat,2.692,0.902,1,4,3,good condition
+estuary,wq,2.577,0.838,1,3.75,2.75,good condition
+large_embayment,carbon.sequestration,2.688,0.778,1,3.5,2.5,good condition
+large_embayment,nekton.habitat,2.312,0.66,1.25,4,2.75,moderate condition
+large_embayment,primary.production,2.41,0.389,1.67,3,1.33,moderate condition
+large_embayment,secondary.production,2.499,0.534,1.4,3.25,1.85,moderate condition
+large_embayment,substrate.stabilization,2.458,0.729,1,4,3,moderate condition
+large_embayment,waterfowl.habitat,2.292,0.736,1,4,3,moderate condition
+large_embayment,wq,2.375,0.647,1.5,3.75,2.25,moderate condition
+small_embayment,carbon.sequestration,2.208,1.054,1,4,3,moderate condition
+small_embayment,nekton.habitat,2.521,0.527,1.25,3.5,2.25,good condition
+small_embayment,primary.production,2.319,0.676,1.5,3.5,2,moderate condition
+small_embayment,secondary.production,2.317,0.685,1.2,3.4,2.2,moderate condition
+small_embayment,substrate.stabilization,2.438,0.65,1,3.5,2.5,moderate condition
+small_embayment,waterfowl.habitat,2.5,0.674,1,3,2,moderate condition
+small_embayment,wq,2.333,0.615,1.25,3.75,2.5,moderate condition

@@ -1,0 +1,8 @@
+# uniqseq
+# santa ana sucker assay development
+
+#install packages
+install.packages("Uniqseq", dependencies = TRUE)
+library(Uniqseq)
+
+#

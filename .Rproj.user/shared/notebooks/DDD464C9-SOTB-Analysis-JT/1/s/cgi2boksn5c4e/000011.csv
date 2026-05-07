@@ -1,0 +1,6 @@
+"0",""
+"0","ggsave(""/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/SM-Bay/figures_share/Veg_PA_heatmap.jpg"", "
+"0","           heatmap_veg,"
+"0","       width = 16,"
+"0","       height = 6,"
+"0","           dpi = 150)"

@@ -1,0 +1,9 @@
+"0","# inverts
+invert_abun <- sotb_invert_data_clean %>%
+  ilter(!is.na(scientificname), scientificname != ""-88"") %>%
+  group_by(siteid, year, season) %>%
+  summarize(invert_abundance = sum(abundance), .groups = ""drop"") 
+"
+"2","Error in ilter(., !is.na(scientificname), scientificname != ""-88"") : 
+  could not find function ""ilter""
+"

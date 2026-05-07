@@ -1,0 +1,26 @@
+"0","#Calculate SR by site
+Fish_PA_data_wide_SR_site <- Fish_PA_data_wide %>% 
+  group_by(siteid, estuaryname, region,
+         estuaryclass, mpastatus, estuarytype, year, season) %>% 
+  summarise(across('California halibut':'Western mosquitofish', sum)) %>% 
+  ungroup() %>% 
+  #change numeric values to 1 so that it's PA
+  mutate(across(c('California halibut':'Western mosquitofish'), ~ if_else(. > 0, 1, 0))) %>% 
+  #calculate SR
+  mutate(species_richness = select(.,
+                                  'California halibut':'Western mosquitofish') %>% 
+      rowSums()) %>% 
+  #add in missing istes
+  left_join(Site_df, .) %>% 
+  #add in 0 for species richness
+  mutate(species_richness = ifelse(is.na(species_richness), 0, species_richness)) %>% 
+  left_join(., netreplicate_data) %>% 
+  #Arroyo Sequit Fall was not fished, so need to change the 0 back to NA
+  mutate(species_richness = case_when(
+    siteid == ""SC-ASE"" & season == ""Fall"" ~ NA,
+    TRUE ~ species_richness
+  ))
+"
+"2","`summarise()` has grouped output by 'siteid', 'estuaryname', 'region', 'estuaryclass', 'mpastatus', 'estuarytype', 'year'. You can override using the `.groups` argument."
+"2","Joining with `by = join_by(siteid, estuaryname, estuarytype, year, season)`"
+"2","Joining with `by = join_by(siteid, season)`"

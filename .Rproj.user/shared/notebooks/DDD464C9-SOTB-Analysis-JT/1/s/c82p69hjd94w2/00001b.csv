@@ -1,0 +1,20 @@
+"0","trophic_combined <- invert_abun %>%
+  left_join(fish_abun, by = c(""siteid"", ""year"", ""season"")) %>%
+  mutate(
+    trophic_support_indicator = if_else(
+      is.na(invert_abun) | is.na(fish_abun),
+      NA_real_,
+      (invert_abun + fish_abun) / 2
+    )
+  )
+"
+"1","[1m[33mError[39m in `mutate()`:[22m
+[38;5;255m[36mℹ[38;5;255m In argument: `trophic_support_indicator = if_else(...)`.[39m
+[1mCaused by error in `is.na(invert_abun) | is.na(fish_abun)`:[22m
+[33m![39m non-conformable arrays
+Backtrace:
+[90m  1. [39m... %>% ...
+[90m  9. [39m[1mdplyr[22m::if_else(...)
+[90m 10. [39mdplyr:::check_logical(condition)
+[90m 11. [39m[1mrlang[22m::is_logical(x)
+"

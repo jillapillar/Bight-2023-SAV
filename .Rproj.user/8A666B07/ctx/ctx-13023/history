@@ -1,0 +1,512 @@
+filter(Category!="Total") %>%
+mutate(stratum=factor(Subpopulation, levels = c("All Sites", "large_embayment", "small_embayment", "estuary"),
+labels = c("Southern California\nBight", "Large Embayments", "Small Embayments", "Estuaries")),
+overall.cond = case_when(
+Category == "1" ~ "poor condition",
+Category == "2" ~ "moderate condition",
+Category == "3" ~ "good condition",
+Category == "4" ~ "excellent condition"),
+overall.cond=factor(overall.cond, levels=c("excellent condition", "good condition", "moderate condition", "poor condition")),
+eco.fun=case_when(function_=="substrate.stabilization"~ "Substrate\nStabilization",
+function_=="carbon.sequestration"~ "Carbon\nSequestration",
+function_=="primary.production"~ "Primary\nProduction",
+function_=="secondary.production"~ "Secondary\nProduction",
+function_=="wq"~ "Water\nQuality",
+function_=="nekton.habitat"~ "Nekton\nHabitat",
+function_=="waterfowl.habitat"~ "Waterfowl\nHabitat")) %>%
+naniar::replace_with_na(., replace=list(Estimate.P=0)) %>%
+ggplot(., aes(x = eco.fun, y = Estimate.P)) +
+geom_errorbar(aes(ymin = LCB95Pct.P, ymax = UCB95Pct.P, color = overall.cond),
+width = 0.15, linewidth = 0.8, position = position_dodge_val) +
+geom_point(aes(fill = overall.cond),
+shape = 21, size = 6, stroke = 1.2, color = "black", position = position_dodge_val) +
+scale_fill_manual(values = c("excellent condition" = "turquoise1",
+"good condition" = "cadetblue",
+"moderate condition" = "peachpuff3",
+"poor condition" = "#ff6600"),
+labels = c("Best Observed", "Good", "Moderate", "Lowest Observed"),
+name = "Overall\nCondition") +
+scale_color_manual(values = c("excellent condition" = "turquoise1",
+"good condition" = "cadetblue",
+"moderate condition" = "peachpuff3",
+"poor condition" = "#ff6600"), guide = "none") +
+geom_vline(xintercept = c(1.5, 2.5, 3.5, 4.5, 5.5, 6.5), linetype=3)+
+labs(x="Ecosystem Function", y="Percent of Area Bight-Wide (+/- 95% CI)", colour="Function\nCondition")+
+theme_bw()+
+theme(panel.grid = element_blank(),
+axis.title = element_text(face="bold", size=18),
+axis.text.x=element_text(face="bold", size=16, hjust = 1, angle = 45),
+legend.text = element_text(size = 16),
+legend.title = element_text(size = 18))
+bight.wide.fun.plots.panel.four
+# ecosystem function by area - four category
+bight.wide.fun.plots.panel.four <-wt.fun.cond.bight.four %>%
+filter(Category!="Total") %>%
+mutate(stratum=factor(Subpopulation, levels = c("All Sites", "large_embayment", "small_embayment", "estuary"),
+labels = c("Southern California\nBight", "Large Embayments", "Small Embayments", "Estuaries")),
+overall.cond = case_when(
+Category == "1" ~ "poor condition",
+Category == "2" ~ "moderate condition",
+Category == "3" ~ "good condition",
+Category == "4" ~ "excellent condition"),
+overall.cond=factor(overall.cond, levels=c("excellent condition", "good condition", "moderate condition", "poor condition")),
+eco.fun=case_when(function_=="substrate.stabilization"~ "Substrate\nStabilization",
+function_=="carbon.sequestration"~ "Carbon\nSequestration",
+function_=="primary.production"~ "Primary\nProduction",
+function_=="secondary.production"~ "Secondary\nProduction",
+function_=="wq"~ "Water\nQuality",
+function_=="nekton.habitat"~ "Nekton\nHabitat",
+function_=="waterfowl.habitat"~ "Waterfowl\nHabitat")) %>%
+naniar::replace_with_na(., replace=list(Estimate.P=0)) %>%
+ggplot(., aes(x = eco.fun, y = Estimate.P)) +
+geom_errorbar(aes(ymin = LCB95Pct.P, ymax = UCB95Pct.P, color = overall.cond),
+width = 0.15, linewidth = 0.8, position = position_dodge_val) +
+geom_point(aes(fill = overall.cond),
+shape = 21, size = 6, stroke = 1.2, color = "black", position = position_dodge_val) +
+scale_fill_manual(values = c("excellent condition" = "turquoise1",
+"good condition" = "cadetblue",
+"moderate condition" = "peachpuff3",
+"poor condition" = "#ff6600"),
+labels = c("Best Observed", "Good", "Moderate", "Lowest Observed"),
+name = "Overall\nCondition") +
+scale_color_manual(values = c("excellent condition" = "turquoise1",
+"good condition" = "cadetblue",
+"moderate condition" = "peachpuff3",
+"poor condition" = "#ff6600"), guide = "none") +
+geom_vline(xintercept = c(1.5, 2.5, 3.5, 4.5, 5.5, 6.5), linetype=3)+
+labs(x="Ecosystem Function", y="Percent Area of Region (+/- 95% CI)", colour="Function\nCondition")+
+theme_bw()+
+theme(panel.grid = element_blank(),
+axis.title = element_text(face="bold", size=18),
+axis.text.x=element_text(face="bold", size=16, hjust = 1, angle = 45),
+legend.text = element_text(size = 16),
+legend.title = element_text(size = 18))
+bight.wide.fun.plots.panel.four
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/final/fun.scores.panel.fourcat.jpg",
+bight.wide.fun.plots.panel.four,
+height = 8, width = 10,
+dpi = 300)
+plot_structural
+structural.overall
+plot_lab
+inlet_plot_final
+inlet_plot_final <- eelgrass_minimal %>%
+filter(variable %in% candidate_inlet_metrics) %>%
+filter(project_id == "B23-SAV") %>%
+filter(species != "Zostera pacifica") %>%
+ggplot( aes(x = distance_to_inlet, y = result)) +
+geom_jitter(aes(color = stratum), width = 0.2, alpha = 0.5, size = 3) +
+scale_color_manual(values = col_strata) +
+facet_wrap(~ variable_label, scale = "free") +
+theme_bw() +
+theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+theme(strip.text = element_text(size = 18)) +
+theme(axis.title = element_text(size = 20)) +
+theme(axis.text = element_text(size = 18)) +
+xlab("Distance to inlet (km)")
+inlet_plot_final
+siteprotection_plot_final
+### visualize by waterbody ----
+# King Harbor
+king_harbor_plot <- ggplot(eelgrass %>% filter(str_detect(waterbody, "King Harbor")), aes(x = site_id, y = result)) +
+geom_boxplot(outlier.shape = NA) +
+geom_jitter(width = 0.2, alpha = 0.6, color = "midnightblue") +
+facet_wrap(~ variable_label, scale = "free") +
+theme_bw() +
+theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+theme(legend.position = "none") +
+ggtitle("2023 eelgrass data - King Harbor")
+ggplotly(king_harbor_plot)
+#delineate probabilistic sites from targeted sites
+site.selection.data <- read.csv(here("data", "raw", "site.selection.pts.csv"))
+library(here)
+#delineate probabilistic sites from targeted sites
+site.selection.data <- read.csv(here("data", "raw", "site.selection.pts.csv"))
+head(site.selection.data)
+head(eelgrass)
+# delineate probabilistic sites from targeted sites -
+# we can only use random sites to make inferences about are in condition
+site.selection.data <- read.csv(here("data", "raw", "site.selection.pts.csv"))
+eelgrass.probabilistic <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id", "masterid"))
+# delineate probabilistic sites from targeted sites -
+# we can only use random sites to make inferences about are in condition
+site.selection.data <- read.csv(here("data", "raw", "site.selection.pts.csv"))
+eelgrass.probabilistic <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id", "masterid"))
+head(site.selection.data)
+eelgrass.probabilistic <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id" = "masterid")
+)
+eelgrass.probabilistic <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id" = "masterid"),
+relationship = "many-to-many"
+)
+View(eelgrass.probabilistic)
+View(eelgrass)
+# delineate probabilistic sites from targeted sites -
+# we can only use random sites to make inferences about are in condition
+site.selection.data <- read.csv(here("data", "raw", "site.selection.pts.csv"))
+eelgrass.probabilistic <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id" = "masterid"),
+relationship = "many-to-many"
+)
+View(eelgrass.probabilistic)
+eelgrass.probabilistic <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id" = "masterid"),
+relationship = "many-to-many"
+) %>%
+filter(selection == "probabilistic")
+shootheight_all <-eelgrass.probabilistic %>% filter(variable == "shoot height") %>% filter(variable > 0)
+shootdensity_all <-eelgrass.probabilistic %>% filter(variable == "shoot density") %>% filter(variable >= 0)
+percentcover_all <-eelgrass.probabilistic %>% filter(variable == "percent cover") %>% filter(variable >= 0)
+percentmacroalgae_all <-eelgrass.probabilistic %>% filter(variable == "percent macroalgae") %>% filter(variable >= 0)
+floweringshoot_all <-eelgrass.probabilistic %>% filter(variable == "flowering shoot density") %>% filter(variable >= 0)
+shootcount_all <- eelgrass.probabilistic %>% filter(variable == "Shoot Count")
+leafarea_all <- eelgrass.probabilistic %>% filter(variable == "Leaf Area")
+epiphyteAFDM_all <-eelgrass.probabilistic %>% filter(variable == "Epiphyte AFDM")
+shootwidth_all <- eelgrass.probabilistic %>% filter(variable == "Shoot Width")
+AG_AFDM_all <- eelgrass.probabilistic %>% filter(variable == "Above Ground AFDM")
+BG_AFDM_all <- eelgrass.probabilistic %>% filter(variable == "Below Ground AFDM")
+LPS_all <- eelgrass.probabilistic %>% filter(variable == "Leaves per Shoot")
+AG_TOC_all <- eelgrass.probabilistic %>% filter(variable == "AG_TOC")
+AG_TN_all <- eelgras.probabilistics %>% filter(variable == "AG_TN")
+BG_TOC_all <- eelgrass.probabilistic %>% filter(variable == "BG_TOC")
+AG_TN_all <- eelgras.probabilistic %>% filter(variable == "AG_TN")
+AG_TN_all <- eelgrass.probabilistic %>% filter(variable == "AG_TN")
+BG_TOC_all <- eelgrass.probabilistic %>% filter(variable == "BG_TOC")
+BG_TN_all <- eelgrass.probabilistic %>% filter(variable == "BG_TN")
+# Intermediate Structural Metric calculations ----
+# TOC:TN ratio
+TOC.TN.calc <- eelgrass.probabilistic %>%
+filter(variable %in% c("AG_TOC", "AG_TN", "BG_TOC", "BG_TN")) %>%
+group_by(site_id, transect, sample_id, variable) %>%
+summarise(
+result = mean(result, na.rm = TRUE), .groups = "drop") %>%
+pivot_wider(names_from = variable,
+values_from = result) %>%
+mutate(AG_TOC_TN = if_else(AG_TN > 0,
+AG_TOC/AG_TN,
+NA_real_),
+BG_TOC_TN = if_else(BG_TN > 0,
+BG_TOC/BG_TN,
+NA_real_)) %>%
+select(site_id, transect, sample_id, AG_TOC_TN, BG_TOC_TN)
+## Bight 2023 Regional Monitoring for SAV
+# script for QA/QC, analysis using eelgrass condition assessment tool
+# figures and tables appearing in 2023 SAV Technical Report
+#
+# open libs ----
+library(here)
+library(tidyr)
+library(dplyr)
+library(sf)
+library(spsurvey)
+library(vegan)
+library(ggplot2)
+library(stringr)
+library(kableExtra)
+library(DT)
+library(ggforce)
+library(plotly)
+library(purrr)
+library(ggh4x)
+# Intermediate Structural Metric calculations ----
+# TOC:TN ratio
+TOC.TN.calc <- eelgrass.probabilistic %>%
+filter(variable %in% c("AG_TOC", "AG_TN", "BG_TOC", "BG_TN")) %>%
+group_by(site_id, transect, sample_id, variable) %>%
+summarise(
+result = mean(result, na.rm = TRUE), .groups = "drop") %>%
+pivot_wider(names_from = variable,
+values_from = result) %>%
+mutate(AG_TOC_TN = if_else(AG_TN > 0,
+AG_TOC/AG_TN,
+NA_real_),
+BG_TOC_TN = if_else(BG_TN > 0,
+BG_TOC/BG_TN,
+NA_real_)) %>%
+select(site_id, transect, sample_id, AG_TOC_TN, BG_TOC_TN)
+TOC.TN.calc
+#re-pivot and join with metadata
+TOC.TN.long <-TOC.TN.calc %>%
+pivot_longer(cols = c(AG_TOC_TN, BG_TOC_TN),
+names_to = "variable",
+values_to = "result")
+metadata <- eelgrass.probabilistic %>%
+distinct(site_id, transect, sample_id, .keep_all = TRUE) %>%
+select(-variable, -result)
+eelgrass.calc <- TOC.TN.long %>%
+left_join(metadata, by = c("site_id", "transect", "sample_id"))
+eelgrass.calc.rename <- eelgrass.calc %>%
+mutate(variable_label = case_when(
+variable == "AG_TOC_TN" ~ "Above Ground TOC:TN",
+variable == "BG_TOC_TN" ~ "Below Ground TOC:TN",
+TRUE ~ variable_label),
+unit = NA_character_)
+#New eelgrass dataset ready for scoring
+eelgrass_v2 <-bind_rows(eelgrass.probabilistic, eelgrass.calc.rename)
+# Useful subsets from new data
+AG_TOC_TN_all <- eelgrass_v2 %>% filter(variable == "AG_TOC_TN")
+BG_TOC_TN_all <- eelgrass_v2 %>% filter(variable == "BG_TOC_TN")
+head(eelgrass_v2)
+# ## Examine leaf area: AG biomass, leaf area vs avg shoot height, and AG biomass vs shoot density
+# Since there are multiple Leaf Area measurements per sample_id but only one AFDM per sample_id,
+# let's sum each leaf area measurement in each sample, and compare the total area to the AFDM
+total.leaf.area <- leafarea_all %>%
+group_by(site_id, transect, sample_id) %>%
+summarise(total.leafarea = sum(result, na.rm = TRUE), .groups = "drop")
+avg.shoot.height <- shootheight_all %>%
+group_by(site_id, transect, sample_id) %>%
+summarise(avg.shootheight = mean(result, na.rm = TRUE), .groups = "drop")
+total.shoot.density <- shootdensity_all %>%
+group_by(site_id, transect, sample_id) %>%
+summarise(total.shootdensity = sum(result, na.rm = TRUE), .groups = "drop")
+total.ag.biomass <- AG_AFDM_all %>%
+group_by(site_id, transect, sample_id) %>%
+summarise(total.agbiomass = sum(result, na.rm = TRUE), .groups = "drop")
+area.biomass.df <- total.leaf.area %>%
+left_join(total.ag.biomass, by = c("site_id", "transect", "sample_id")) %>%
+left_join(avg.shoot.height, by = c("site_id", "transect", "sample_id")) %>%
+left_join(total.shoot.density, by = c("site_id", "transect", "sample_id"))
+### QA/QC checkpoints
+#screen for inappropriate negatives - CHECKPOINT
+negatives <- area.biomass.df %>%
+filter(if_any(where(is.numeric), ~. < 0))
+#screen for missing sample/transect info - CHECKPOINT
+no.transect <- area.biomass.df %>%
+filter(if_any(where(is.character), ~. == ""))
+negatives
+sample.mismatch
+LA_biomass_plot <- area.biomass.df %>%
+ggplot(aes(x = total.leafarea, y = total.agbiomass, color = sample_id)) +
+geom_point(size = 4) +
+theme_bw() +
+facet_wrap(~transect, scales = "free") +
+theme(axis.title = element_text(size = 18)) +
+theme(axis.text = element_text(size = 18))+
+theme(strip.text = element_text(size = 20)) +
+theme(legend.text = element_text(size = 18)) +
+theme(legend.title = element_text(size = 20)) +
+scale_color_viridis_d(alpha = 0.6) +
+ylab("Above Ground Biomass (mg)") + xlab("Total Leaf Area per Sample (cm_sq)")
+ggplotly(LA_biomass_plot)
+### bin values into quartiles based on rank-order
+AG_TOCTN_score4 <- AG_TOC_TN_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(AG_TOCTN_score = ntile(mean_result, 4))
+BG_TOCTN_score4 <- BG_TOC_TN_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(BG_TOCTN_score = ntile(mean_result, 4))
+shootheight_score4 <- shootheight_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(shootheight_score = ntile(mean_result, 4))
+shootdensity_score4 <- shootdensity_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(shootdensity_score = ntile(mean_result, 4))
+percentcover_score4 <- percentcover_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(percentcover_score = ntile(mean_result, 4))
+percentmacroalgae_score4 <- percentmacroalgae_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(percentmacroalgae_score = ntile(mean_result, 4))
+floweringshoot_score4 <- floweringshoot_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(floweringshoot_score = ntile(mean_result, 4))
+shootcount_score4 <- shootcount_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(shootcount_score = ntile(mean_result, 4))
+leafarea_score4 <- leafarea_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(leafarea_score = ntile(mean_result, 4))
+epiphyteAFDM_score4 <- epiphyteAFDM_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(epiphyteAFDM_score = ntile(mean_result, 4))
+shootwidth_score4 <- shootwidth_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(shootwidth_score = ntile(mean_result, 4))
+AG_AFDM_score4 <- AG_AFDM_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(AG_AFDM_score = ntile(mean_result, 4))
+BG_AFDM_score4 <- BG_AFDM_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(BG_AFDM_score = ntile(mean_result, 4))
+LPS_score4 <- LPS_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(LPS_score = ntile(mean_result, 4))
+AG_TOC_score4 <- AG_TOC_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(AG_TOC_score = ntile(mean_result, 4))
+AG_TN_score4 <- AG_TN_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(AG_TN_score = ntile(mean_result, 4))
+BG_TOC_score4 <- BG_TOC_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(BG_TOC_score = ntile(mean_result, 4))
+BG_TN_score4 <- BG_TN_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+mutate(BG_TN_score = ntile(mean_result, 4))
+## attach scores to metadata
+#trim metadata
+eelgrass_meta <- eelgrass.probabilistic %>%
+select(project_id, site_id, waterbody, distance_to_inlet,
+inlet_status, site_protection, site_protection_granular, conservation_area,
+natural_or_restored,
+species, central_depth_mhw, nominal_lat, nominal_lon,
+bed_type, stratum, sample_n, sample_date, bed_type,
+bed_perimeter, field_org, collection_method, wasting_disease,
+stratum, selection)
+#list all score dfs
+score_dfs_4 <-list(shootheight_score4,
+shootdensity_score4,
+percentcover_score4,
+percentmacroalgae_score4,
+floweringshoot_score4,
+shootcount_score4,
+shootwidth_score4,
+leafarea_score4,
+LPS_score4,
+epiphyteAFDM_score4,
+AG_AFDM_score4,
+BG_AFDM_score4,
+AG_TOC_score4,
+AG_TN_score4,
+BG_TOC_score4,
+BG_TN_score4,
+AG_TOCTN_score4,
+BG_TOCTN_score4)
+# create df pf all structural metric scores
+metric_scores4 <- reduce(score_dfs_4, left_join, by = "site_id")
+metric_scores4_meta <- metric_scores4 %>%
+left_join(eelgrass_meta, by = "site_id")
+## output data into intermediate folder
+write.csv(metric_scores4_meta, here("data", "intermediate", "eelgrass_ALL_structural_metric_scores.probabilistic.csv"))
+eelgrass.targeted <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id" = "masterid"),
+relationship = "many-to-many") %>%
+filter(selection == "targeted")
+eelgrass.probabilistic <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id" = "masterid"),
+relationship = "many-to-many"
+) %>%
+filter(selection == "probabilistic") %>%
+filter(species != "Zostera pacifica")
+eelgrass.probabilistic <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id" = "masterid"),
+relationship = "many-to-many"
+) %>%
+filter(selection == "probabilistic") %>%
+filter(species != "Zostera pacifica")
+# remove sites that are probabilistic but are Zostera pacifica or another species
+eelgrass.prob.pacifica <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id" = "masterid"),
+relationship = "many-to-many"
+) %>%
+filter(selection == "probabilistic") %>%
+filter(species == "Zostera pacifica")
+View(eelgrass.prob.pacifica)
+# make a separate df of targeted sites
+eelgrass.targeted <- eelgrass %>%
+left_join(site.selection.data %>% select(masterid, selection),
+by = c("site_id" = "masterid"),
+relationship = "many-to-many") %>%
+filter(selection == "targeted")
+AG_TOCTN_score4
+# get cutpoints from probabilistic data
+AG_TOCTN_breaks <- AG_TOC_TN_all %>%
+group_by(site_id) %>%
+summarize(mean_result = mean(result, na.rm = T)) %>%
+summarize(q = quantile(mean_result, probs = c(0, 0.25, 0.5, 0.75, 1), na.rm = TRUE)) %>%
+pull(q)
+eelgrass <- bind_rows(field.full, lab.full) %>%
+mutate(variable = recode(variable, "Shoot Height" = "shoot height",
+"Leaves per Shoot" = "leaves per shoot",
+"above_ground_AFDM" = "Above Ground AFDM",
+"below_ground_AFDM" = "Below Ground AFDM")) %>%
+mutate(result = if_else(variable == "Shoot Width" & unit == "cm", result*10, result),
+unit = if_else(variable == "Shoot Width" & unit == "cm", "mm", unit)) %>%
+mutate(variable_label = paste0(variable, " (", unit, ")")
+# QAQC ----
+site.list <- unique(eelgrass.all$site_id)
+eelgrass <- bind_rows(field.full, lab.full) %>%
+mutate(variable = recode(variable, "Shoot Height" = "shoot height",
+"Leaves per Shoot" = "leaves per shoot",
+"above_ground_AFDM" = "Above Ground AFDM",
+"below_ground_AFDM" = "Below Ground AFDM")) %>%
+mutate(result = if_else(variable == "Shoot Width" & unit == "cm", result*10, result),
+unit = if_else(variable == "Shoot Width" & unit == "cm", "mm", unit)) %>%
+mutate(variable_label = paste0(variable, " (", unit, ")")
+# QAQC ----
+site.list <- unique(eelgrass.all$site_id)
+eelgrass <- bind_rows(field.full, lab.full) %>%
+mutate(variable = recode(variable, "Shoot Height" = "shoot height",
+"Leaves per Shoot" = "leaves per shoot",
+"above_ground_AFDM" = "Above Ground AFDM",
+"below_ground_AFDM" = "Below Ground AFDM")) %>%
+mutate(result = if_else(variable == "Shoot Width" & unit == "cm", result*10, result),
+unit = if_else(variable == "Shoot Width" & unit == "cm", "mm", unit)) %>%
+mutate(variable_label = paste0(variable, " (", unit, ")")
+# QAQC ----
+site.list <- unique(eelgrass.all$site_id)
+# read in data ----
+eelgrass.field <- read.csv(here("data", "raw", "eelgrassfield_FINAL.csv"))
+eelgrass.lab <- read.csv(here("data", "raw", "eelgrasslab_FINAL.csv"))
+sample.draw <- read.csv(here("data", "raw", "10-23 eelgrass sample draw.csv")) #not necessary
+station.info <- read.csv(here("data", "raw", "station_info_CGupdate.csv"))
+perim <- read.csv(here("data", "raw", "merkel_beddimensions_copy.csv")) #not necessary
+field.full <- eelgrass.field %>%
+left_join(station.info, by = "site_id", relationship = "many-to-many")
+lab.full <- eelgrass.lab %>%
+select(-sample_date) %>%
+left_join(station.info, by = "site_id", relationship = "many-to-many") %>%
+select(-project_id.y, -Collection_agency, -Processing_agency, -shoot_identity) %>%
+rename(project_id = project_id.x)
+eelgrass <- bind_rows(field.full, lab.full) %>%
+mutate(variable = recode(variable, "Shoot Height" = "shoot height",
+"Leaves per Shoot" = "leaves per shoot",
+"above_ground_AFDM" = "Above Ground AFDM",
+"below_ground_AFDM" = "Below Ground AFDM")) %>%
+mutate(result = if_else(variable == "Shoot Width" & unit == "cm", result*10, result),
+unit = if_else(variable == "Shoot Width" & unit == "cm", "mm", unit)) %>%
+mutate(variable_label = paste0(variable, " (", unit, ")")
+# QAQC ----
+site.list <- unique(eelgrass.all$site_id)
+?vegdist
+eelgrass <- bind_rows(field.full, lab.full) %>%
+mutate(variable = recode(variable, "Shoot Height" = "shoot height",
+"Leaves per Shoot" = "leaves per shoot",
+"above_ground_AFDM" = "Above Ground AFDM",
+"below_ground_AFDM" = "Below Ground AFDM")) %>%
+mutate(result = if_else(variable == "Shoot Width" & unit == "cm", result*10, result),
+unit = if_else(variable == "Shoot Width" & unit == "cm", "mm", unit)) %>%
+mutate(variable_label = paste0(variable, " (", unit, ")")
+# QAQC ----
+site.list <- unique(eelgrass.all$site_id)

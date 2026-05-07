@@ -1,0 +1,17 @@
+"0","Bird_Indicator_Plot <- ggplot(Bird_metric, aes(metric, siteid, fill = metric)) +
+  geom_tile(color = ""white"") +
+  geom_text(aes(label = value), size = 8) +
+  facet_wrap(~season) +
+  scale_fill_manual(values = bird_colors) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    panel.grid = element_blank()
+  ) + 
+  theme(axis.text = element_text(size = 14),
+        axis.title = element_text(size = 16),
+        strip.text = element.text(size = 18)) +
+  theme(legend.position = ""none"")
+"
+"2","Error in element.text(size = 18) : could not find function ""element.text""
+"

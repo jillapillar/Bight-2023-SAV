@@ -1,0 +1,512 @@
+mutate(
+across(where(is.factor), as.character),
+across(where(is.character), ~ na_if(.x, "NR"))
+) %>%
+mutate(across(where(is.character), as.factor))
+wt.overall.cond.bight<-wt.index.scores.f %>%
+filter(project_id =="B23-SAV") %>%
+filter(!is.na(site_id), !is.na(wgt), !is.na(overall_cond), !is.na(nominal_lat), !is.na(nominal_lon)) %>%
+distinct(masterid, nominal_lon, nominal_lat, stratum, wgt, waterbody, overall_score, overall_cond) %>%
+cat_analysis(., siteID = "masterid", vars="overall_cond", weight="wgt", xcoord="nominal_lon", ycoord="nominal_lat", vartype = "HT")
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id),
+!is.na(wgt),
+!is.na(overall_cond),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(masterid, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+cat_analysis(siteID = "masterid",
+vars = "overall_cond",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_cond),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(masterid, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+cat_analysis(siteID = "masterid",
+vars = "overall_cond",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id),
+!is.na(wgt),
+!is.na(overall_cond),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+cat_analysis(siteID = "site_id",
+vars = "overall_cond",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+str(wt.index.scores)
+#jill's version
+wt.index.scores.f <- wt.index.scores %>%
+mutate(
+across(where(is.factor), as.character),
+across(where(is.character), ~ na_if(.x, "NR"))
+) %>%
+mutate(across(where(is.character), as.factor))
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id),
+!is.na(wgt),
+!is.na(overall_cond),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+mutate(overall_cond = as.character(overall_cond)) %>%
+cat_analysis(siteID = "site_id",
+vars = "overall_cond",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+levels(wt.index.scores.f$overall_cond)
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id),
+!is.na(wgt),
+!is.na(overall_cond),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+mutate(overall_cond = as.character(overall_cond)) %>%
+cat_analysis(siteID = "site_id",
+vars = "overall_score",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+str(wt.index.scores.f)
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+mutate(overall_cond = as.character(overall_cond)) %>%
+cat_analysis(siteID = "site_id",
+vars = "overall_score",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond)
+View(wt.overall.cond.bight)
+str(wt.overall.cond.bight)
+?cat_analysis()
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(masterid, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond)
+str(wt.overall.cond.bight)
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(as.numeric(masterid), nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond)
+str(wt.overall.cond.bight)
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(as.character(masterid), nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond)
+str(wt.overall.cond.bight)
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(as.character(masterid), nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+mutate(overall_cond = as.character(overall_cond)) %>%
+cat_analysis(siteID = "as.character(masterid)",
+vars = "overall_score",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(as.character(masterid), nominal_lon, nominal_lat, stratum, as.numeric(wgt),
+waterbody, overall_score, overall_cond) %>%
+mutate(overall_cond = as.character(overall_cond)) %>%
+cat_analysis(siteID = "as.character(masterid)",
+vars = "overall_score",
+weight = "as.numeric(wgt)",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+distinct(as.character(masterid), nominal_lon, nominal_lat, stratum, as.numeric(wgt),
+waterbody, overall_score, overall_cond)
+str(wt.overall.cond.bight)
+runif(100,10,100)
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+as.numeric(wgt)
+?recode()
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+recode(as.numeric(wgt))
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(masterid),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+mutate(wgt = as.numeric(wgt)) %>%
+mutate(masterid = as.character(masterid)) %>%
+distinct(masterid, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+mutate(overall_cond = as.character(overall_cond)) %>%
+cat_analysis(siteID = "masterid",
+vars = "overall_score",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+View(wt.overall.cond.bight)
+View(wt.overall.cond)
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+mutate(wgt = as.numeric(wgt)) %>%
+mutate(site_id = as.character(site_id)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+mutate(overall_cond = as.character(overall_cond)) %>%
+cat_analysis(siteID = "site_id",
+vars = "overall_score",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+wt.overall.cond.bight
+wt.overall.cond.bight <- wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id),
+!is.na(wgt),
+!is.na(overall_score),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+mutate(wgt = as.numeric(wgt)) %>%
+mutate(site_id = as.character(site_id)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt,
+waterbody, overall_score, overall_cond) %>%
+mutate(overall_cond = as.character(overall_cond)) %>%
+cat_analysis(siteID = "site_id",
+vars = "overall_cond",
+weight = "wgt",
+xcoord = "nominal_lon",
+ycoord = "nominal_lat",
+vartype = "HT")
+wt.overall.cond.bight
+wt.overall.cond.bight.2<-wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id), !is.na(wgt),
+!is.na(overall_cond),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+mutate(wgt = as.numeric(wgt)) %>%
+mutate(site_id = as.character(site_id))
+wt.overall.cond.bight.2<-wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id), !is.na(wgt),
+!is.na(overall_cond),
+!is.na(nominal_lat),
+!is.na(nominal_lon)) %>%
+mutate(wgt = as.numeric(wgt)) %>%
+mutate(site_id = as.character(site_id)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt, waterbody, overall_score, overall_cond) %>%
+cat_analysis(., siteID = "site_id", vars="overall_cond", weight="wgt", xcoord="nominal_lon", ycoord="nominal_lat", subpops="stratum", vartype = "HT") %>%
+bind_rows(wt.overall.cond.bight)
+View(wt.overall.cond.bight.2)
+write.csv(wt.overall.cond.bight.2, here("data", "final", "BIGHT ONLY Overall Condition Scores by stratum - draft.csv"))
+# overall condition plot
+overall.plot.1<-wt.overall.cond.bight.2 %>%
+filter(Category!="Total") %>%
+mutate(stratum=factor(Subpopulation, levels = c("All Sites", "large_embayment", "small_embayment", "estuary"),
+labels = c("Souther California\nBight", "Large Embayments", "Small Embayments", "Estuaries")),
+overall.cond=factor(Category, levels=c("moderate condition", "poor condition", "good condition"))) %>%
+naniar::replace_with_na(., replace=list(Estimate.P=0)) %>%
+ggplot(., aes(x=stratum, y=Estimate.P, colour = overall.cond, ymin = LCB95Pct.P, ymax=UCB95Pct.P))+
+theme_bw()+
+theme(panel.grid = element_blank(),
+axis.title = element_text(face="bold", size=18),
+axis.text.x=element_text(face="bold", size=16, hjust = 1, angle = 45))+
+geom_pointrange(size=0.5, position = position_dodge(width=0.5))+
+labs(x="Stratum", y="Percent of Area (+/- 95% CI)", colour="Overall\nCondition")+
+scale_color_manual(values=c("#666699", "#CC6600", "plum1"),
+labels=c("Moderate", "Poor", "Good"))+
+NULL
+overall.plot.1
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/final/Overall.index.scores-area.weighted.jpg",
+overall.plot.1,
+height = 10, width = 10,
+dpi = 300)
+wt.fun.cond.bight<-wt.index.scores.f %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id), !is.na(wgt), !is.na(overall_cond), !is.na(nominal_lat), !is.na(nominal_lon), !is.na(fun_cond)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt, waterbody, function_,fun_score, fun_cond) %>%
+mutate(wgt = as.numeric(wgt)) %>%
+mutate(site_id = as.character(site_id)) %>%
+nest(dat=c(-function_)) %>%
+mutate(catty=purrr::map(.x=dat, ~cat_analysis(., siteID = "site_id", vars="fun_cond", weight="wgt", xcoord="nominal_lon", ycoord="nominal_lat", vartype = "HT"))) %>%
+unnest(catty)
+wt.fun.cond.2.bight<-wt.index.scores %>%
+filter(project_id == "B23-SAV") %>%
+filter(!is.na(site_id), !is.na(wgt), !is.na(overall_cond), !is.na(nominal_lat), !is.na(nominal_lon), !is.na(fun_cond)) %>%
+distinct(site_id, nominal_lon, nominal_lat, stratum, wgt, waterbody, function_,fun_score, fun_cond) %>%
+mutate(wgt = as.numeric(wgt)) %>%
+mutate(site_id = as.character(site_id)) %>%
+nest(dat=c(-function_)) %>%
+mutate(catty=purrr::map(.x=dat, ~cat_analysis(., siteID = "site_id", vars="fun_cond", weight="wgt", xcoord="nominal_lon", ycoord="nominal_lat", subpops="stratum",, vartype = "HT")) )%>%
+unnest(catty)# %>% #omitting the binding, I think this is best for vizualization
+write.csv(select(wt.fun.cond.bight.2, -dat), here("data", "final", "BIGHT ONLY function conditions by stratum - draft.csv"))
+bight.wide.fun.plots.panel <-wt.fun.cond.2.bight %>%
+filter(Category!="Total") %>%
+mutate(stratum=factor(Subpopulation, levels = c("All Sites", "large_embayment", "small_embayment", "estuary"),     labels = c("Souther California\nBight", "Large Embayments", "Small Embayments", "Estuaries")),
+overall.cond=factor(Category, levels=c("good condition", "moderate condition", "poor condition")),
+eco.fun=case_when(function_=="substrate.stabilization"~ "Substrate\nStabilization",
+function_=="carbon.sequestration"~ "Carbon\nSequestration",
+function_=="primary.production"~ "Primary\nProduction",
+function_=="secondary.production"~ "Secondary\nProduction",
+function_=="wq"~ "Water\nQuality",
+function_=="nekton.habitat"~ "Nekton\nHabitat",
+function_=="waterfowl.habitat"~ "Waterfowl\nHabitat")) %>%
+naniar::replace_with_na(., replace=list(Estimate.P=0)) %>%
+ggplot(., aes(x=eco.fun, y=Estimate.P, colour = overall.cond, ymin = LCB95Pct.P, ymax=UCB95Pct.P))+
+theme_bw()+
+theme(panel.grid = element_blank(),
+axis.title = element_text(face="bold", size=13),
+axis.text.x=element_text(face="bold", size=10, hjust = 1, angle = 45))+
+facet_wrap(~stratum, nrow = 3) +
+geom_pointrange(size=0.75, position = position_dodge(width=0.5))+
+geom_vline(xintercept = c(1.5, 2.5, 3.5, 4.5, 5.5, 6.5), linetype=3)+
+labs(x="Ecosystem Function", y="Percent of Area Bight-Wide (+/- 95% CI)", colour="Function\nCondition")+
+scale_color_manual(values=c("plum1", "#666699", "#CC6600"),
+labels=c("Good", "Moderate", "Poor"))+
+NULL
+bight.wide.fun.plots.panel
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/final/fun.scores.panel.jpg",
+bight.wide.fun.plots.panel,
+height = 10, width = 10,
+dpi = 300)
+bight.wide.fun.plots.panel <-wt.fun.cond.2.bight %>%
+filter(Category!="Total") %>%
+mutate(stratum=factor(Subpopulation, levels = c("All Sites", "large_embayment", "small_embayment", "estuary"),     labels = c("Souther California\nBight", "Large Embayments", "Small Embayments", "Estuaries")),
+overall.cond=factor(Category, levels=c("good condition", "moderate condition", "poor condition")),
+eco.fun=case_when(function_=="substrate.stabilization"~ "Substrate\nStabilization",
+function_=="carbon.sequestration"~ "Carbon\nSequestration",
+function_=="primary.production"~ "Primary\nProduction",
+function_=="secondary.production"~ "Secondary\nProduction",
+function_=="wq"~ "Water\nQuality",
+function_=="nekton.habitat"~ "Nekton\nHabitat",
+function_=="waterfowl.habitat"~ "Waterfowl\nHabitat")) %>%
+naniar::replace_with_na(., replace=list(Estimate.P=0)) %>%
+ggplot(., aes(x=eco.fun, y=Estimate.P, colour = overall.cond, ymin = LCB95Pct.P, ymax=UCB95Pct.P))+
+theme_bw()+
+theme(panel.grid = element_blank(),
+axis.title = element_text(face="bold", size=18),
+axis.text.x=element_text(face="bold", size=16, hjust = 1, angle = 45),
+strip.text = element_text(size = 18))+
+facet_wrap(~stratum, nrow = 3) +
+geom_pointrange(size=0.75, position = position_dodge(width=0.5))+
+geom_vline(xintercept = c(1.5, 2.5, 3.5, 4.5, 5.5, 6.5), linetype=3)+
+labs(x="Ecosystem Function", y="Percent of Area Bight-Wide (+/- 95% CI)", colour="Function\nCondition")+
+scale_color_manual(values=c("plum1", "#666699", "#CC6600"),
+labels=c("Good", "Moderate", "Poor"))+
+NULL
+bight.wide.fun.plots.panel
+bight.wide.fun.plots.panel <-wt.fun.cond.2.bight %>%
+filter(Category!="Total") %>%
+mutate(stratum=factor(Subpopulation, levels = c("All Sites", "large_embayment", "small_embayment", "estuary"),     labels = c("Souther California\nBight", "Large Embayments", "Small Embayments", "Estuaries")),
+overall.cond=factor(Category, levels=c("good condition", "moderate condition", "poor condition")),
+eco.fun=case_when(function_=="substrate.stabilization"~ "Substrate\nStabilization",
+function_=="carbon.sequestration"~ "Carbon\nSequestration",
+function_=="primary.production"~ "Primary\nProduction",
+function_=="secondary.production"~ "Secondary\nProduction",
+function_=="wq"~ "Water\nQuality",
+function_=="nekton.habitat"~ "Nekton\nHabitat",
+function_=="waterfowl.habitat"~ "Waterfowl\nHabitat")) %>%
+naniar::replace_with_na(., replace=list(Estimate.P=0)) %>%
+ggplot(., aes(x=eco.fun, y=Estimate.P, colour = overall.cond, ymin = LCB95Pct.P, ymax=UCB95Pct.P))+
+theme_bw()+
+theme(panel.grid = element_blank(),
+axis.title = element_text(face="bold", size=18),
+axis.text.x=element_text(face="bold", size=16, hjust = 1, angle = 45),
+strip.text = element_text(size = 14))+
+facet_wrap(~stratum, nrow = 3) +
+geom_pointrange(size=0.75, position = position_dodge(width=0.5))+
+geom_vline(xintercept = c(1.5, 2.5, 3.5, 4.5, 5.5, 6.5), linetype=3)+
+labs(x="Ecosystem Function", y="Percent of Area Bight-Wide (+/- 95% CI)", colour="Function\nCondition")+
+scale_color_manual(values=c("plum1", "#666699", "#CC6600"),
+labels=c("Good", "Moderate", "Poor"))+
+NULL
+bight.wide.fun.plots.panel
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/final/fun.scores.panel.jpg",
+bight.wide.fun.plots.panel,
+height = 10, width = 10,
+dpi = 300)
+bight.wide.fun.plots.panel
+bight.wide.fun.plots.bystratum
+# area by function - panel by strata
+bight.wide.fun.plots.bystratum <-wt.fun.cond.bight %>%
+filter(Category!="Total") %>%
+mutate(stratum=factor(Subpopulation, levels = c("All Sites", "large_embayment", "small_embayment", "estuary"),
+labels = c("Souther California\nBight", "Large Embayments", "Small Embayments", "Estuaries")),
+overall.cond=factor(Category, levels=c("good condition", "moderate condition", "poor condition")),
+eco.fun=case_when(function_=="substrate.stabilization"~ "Substrate\nStabilization",
+function_=="carbon.sequestration"~ "Carbon\nSequestration",
+function_=="primary.production"~ "Primary\nProduction",
+function_=="secondary.production"~ "Secondary\nProduction",
+function_=="wq"~ "Water\nQuality",
+function_=="nekton.habitat"~ "Nekton\nHabitat",
+function_=="waterfowl.habitat"~ "Waterfowl\nHabitat")) %>%
+naniar::replace_with_na(., replace=list(Estimate.P=0)) %>%
+ggplot(., aes(x=eco.fun, y=Estimate.P, colour = overall.cond, ymin = LCB95Pct.P, ymax=UCB95Pct.P))+
+theme_bw()+
+theme(panel.grid = element_blank(),
+axis.title = element_text(face="bold", size=13),
+axis.text.x=element_text(face="bold", size=10, hjust = 1, angle = 45))+
+facet_wrap(~stratum) +
+geom_pointrange(size=0.75, position = position_dodge(width=0.5))+
+geom_vline(xintercept = c(1.5, 2.5, 3.5, 4.5, 5.5, 6.5), linetype=3)+
+labs(x="Ecosystem Function", y="Percent of Area Bight-Wide (+/- 95% CI)", colour="Function\nCondition")+
+scale_color_manual(values=c("plum1", "#666699", "#CC6600"),
+labels=c("Good", "Moderate", "Poor"))+
+NULL
+bight.wide.fun.plots.bystratum
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/final/Overall.function.scores-area.weighted.jpg",
+bight.wide.fun.plots,
+height = 10, width = 10,
+dpi = 300)
+bight.wide.fun.plots.bystratum
+bight.wide.fun.plots.panel
+bight.wide.fun.plots.bystratum
+# area by function - panel by strata
+bight.wide.fun.plots.bystratum <-wt.fun.cond.bight %>%
+filter(Category!="Total") %>%
+mutate(stratum=factor(Subpopulation, levels = c("All Sites", "large_embayment", "small_embayment", "estuary"),
+labels = c("Souther California\nBight", "Large Embayments", "Small Embayments", "Estuaries")),
+overall.cond=factor(Category, levels=c("good condition", "moderate condition", "poor condition")),
+eco.fun=case_when(function_=="substrate.stabilization"~ "Substrate\nStabilization",
+function_=="carbon.sequestration"~ "Carbon\nSequestration",
+function_=="primary.production"~ "Primary\nProduction",
+function_=="secondary.production"~ "Secondary\nProduction",
+function_=="wq"~ "Water\nQuality",
+function_=="nekton.habitat"~ "Nekton\nHabitat",
+function_=="waterfowl.habitat"~ "Waterfowl\nHabitat")) %>%
+naniar::replace_with_na(., replace=list(Estimate.P=0)) %>%
+ggplot(., aes(x=eco.fun, y=Estimate.P, colour = overall.cond, ymin = LCB95Pct.P, ymax=UCB95Pct.P))+
+theme_bw()+
+theme(panel.grid = element_blank(),
+axis.title = element_text(face="bold", size=13),
+axis.text.x=element_text(face="bold", size=10, hjust = 1, angle = 45))+
+geom_pointrange(size=0.75, position = position_dodge(width=0.5))+
+geom_vline(xintercept = c(1.5, 2.5, 3.5, 4.5, 5.5, 6.5), linetype=3)+
+labs(x="Ecosystem Function", y="Percent of Area Bight-Wide (+/- 95% CI)", colour="Function\nCondition")+
+scale_color_manual(values=c("plum1", "#666699", "#CC6600"),
+labels=c("Good", "Moderate", "Poor"))+
+NULL
+bight.wide.fun.plots.bystratum
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/final/Overall.function.scores-area.weighted.jpg",
+bight.wide.fun.plots,
+height = 10, width = 10,
+dpi = 300)
+ggsave("/Users/jilltupitza/Library/CloudStorage/OneDrive-SCCWRP/eelgrass_index/figures/final/Overall.function.scores-area.weighted.jpg",
+bight.wide.fun.plots,
+height = 10, width = 10,
+dpi = 300)
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyr)
+library(dplyr)
+library(tidyverse)
+library(readr)
+library(stringr)
+library(clipr)
+library(lubridate)
+library(reshape2)
+library(vegan)
+library(ggplot2)
+library(ggrepel)
+library(here)
+library(ggpubr)
+library(openxlsx)
+library(viridis)
+library(RColorBrewer)
+library(pals)
+here()
+here()
+here()
+here()
